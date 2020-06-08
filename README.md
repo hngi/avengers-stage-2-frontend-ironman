@@ -11,6 +11,7 @@ Step 2. Go-to your github page and click on the forked repository. Navigate to c
 
 Step 3. On your terminal, type:
 `git clone url (paste the url you copied & hit enter)`
+
 (after cloning) click on:
 `git checkout -b "ft-username" (to create your branch)`
 
