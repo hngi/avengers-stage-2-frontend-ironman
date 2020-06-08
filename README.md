@@ -1,6 +1,5 @@
 # avengers-stage-2-frontend-ironman
 
-readme-doc
 Design Link [ https://www.figma.com/file/ug12Phme5DSRlTSlIMaqAt/Deluxe-Hotel-Landing-Page?node-id=0%3A1 ]
 
 
@@ -59,5 +58,3 @@ for more information on git workflow kindly look [here](https://www.atlassian.co
 ```-  [@USERNAME](https://github.com/USERNAME)``` 
 
 leave a new line between the last name you see there ans yours, just follow the same format as the last person.
-
-develop
