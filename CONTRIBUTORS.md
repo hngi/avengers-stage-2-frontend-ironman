@@ -17,4 +17,4 @@
 
 -  [@emmacodemy](http://github.com/emmacodemy)
 
--  [@ishtimah](http://github.com/ishteemah)
+-  [@ishtimah](https://github.com/ishteemah)
