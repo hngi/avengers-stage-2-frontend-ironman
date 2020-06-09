@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Open+Sans:wght@400;600&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #E5E5E5;
+}
+
+div.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+h3{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 0.35em;
+  text-align: center;
+  color: #B900B1;
+}
+
+h2{
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+div.testimonies-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 657px;
+  height: 351.31px;
+  padding: 30px 50px;
+  box-shadow: 0 0 20px 10px rgb(100, 81, 67);
+  border-radius: 30px;
+}
+
+p.testimony-text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+p.testimony-name{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  color: #FF7913;
+}
+
+p.testimony-company{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+}
