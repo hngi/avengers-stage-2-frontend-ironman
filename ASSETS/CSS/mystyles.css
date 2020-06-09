@@ -1,0 +1,40 @@
+header{
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    height: 100%;
+
+}
+
+@media screen and (max-width: 670px){
+    header{
+        min-height: 600px;
+        min-width: 550px;
+    }
+    
+    
+}
+
+.parts{
+    padding-top: 150px;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+#submit{
+    background-color: orange;
+    padding: 30px 10px 30px 10px;
+}
+
+.availability{
+    position: absolute;
+    left: 200px;
+    top: 750px;
+}
+
+#mobile-menu{
+    padding-top: 30%;
+}
