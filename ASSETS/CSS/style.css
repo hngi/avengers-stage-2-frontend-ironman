@@ -1,0 +1,49 @@
+body{
+    background-color: #E5E5E5;
+}
+#about {
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 40px;
+letter-spacing: 0.35em;
+color: #FF7913;
+} 
+#text {
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 40px;
+color: #000000;
+}
+#best {
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 40px;
+color: #000000;
+}
+#lorem {
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 40px;
+color: #000000;
+}
+#button {
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 40px;
+color: #FFFFFF;
+border-radius: 40px;
+background-color: #FF7913;
+width: 200px;
+height: 60px;
+border-style: none;
+}
