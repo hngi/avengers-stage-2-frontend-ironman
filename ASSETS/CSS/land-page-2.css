@@ -1,0 +1,83 @@
+
+#landpagetwo{
+    background-color: white;
+    width: 1300px;
+    height: 600px;
+    
+    align-self: center;
+
+}
+#second-part{
+    text-align: center;
+    margin-bottom: 20px;
+    
+
+    
+}
+
+.row{
+    position: absolute;
+width: 1920px;
+height: 868.98px;
+
+
+   
+}
+
+
+.column-1{
+    position: a;
+  left: auto;
+  width: 30%;
+  height: 430px;
+  border: 3px ;
+  background-image: url(/ASSETS/Images/images/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  float:left;
+  margin-left: 100px;
+
+}
+
+
+
+
+.column-2{
+    left:150px;
+    width:650px;
+    height: 430px;
+    border : 3px ;
+    float : left;
+    padding-left: 40px;
+    padding-top: 60px;
+    font-weight: normal;
+    
+
+    
+
+
+}
+
+#landpage-2-button{
+    background-color:#ff7913;
+    border: 1px solid;
+    border-radius: 15px;
+    align-self:center;
+    height:35px;
+    width: 100px;
+    color:white;
+    
+    
+
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    
+    font-weight: bold;
+    font-family: inter;
+    font-size : 36px;
+}
