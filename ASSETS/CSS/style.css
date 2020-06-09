@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("..webfonts/sofia pro font/SofiaProRegular-Italic.eot");
+  src: local("..webfonts/sofia pro font/Sofia Pro Regular Italic"),
+    local("SofiaProRegular-Italic"),
+    url("..webfonts/sofia pro font/SofiaProRegular-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("..webfonts/sofia pro font/SofiaProRegular-Italic.woff2")
+      format("woff2"),
+    url("..webfonts/sofia pro font/SofiaProRegular-Italic.woff") format("woff"),
+    url("..webfonts/sofia pro font/SofiaProRegular-Italic.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100;
+  /*****font-family: 'Poppins', san-serif;*******/
+  color: #222;
+}
+
+footer {
+  background-image: linear-gradient(rgb(95, 74, 60), rgba(0, 0, 0, 0.795)),
+    url(../img/bg.jpg);
+  background-color: #645143;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fcf7f7;
+  padding-top: 2rem;
+}
+
+hr.light {
+  border-top: 0.1px solid #746059;
+  width: auto;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #fcf7f7;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fae100f8;
+  font-size: 101%;
+  transition: ease-in-out, 0.5s;
+}
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
