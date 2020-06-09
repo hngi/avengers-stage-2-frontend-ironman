@@ -2,15 +2,16 @@
 
 @font-face {
   font-family: "Sofia Pro";
-  src: url("..webfonts/sofia pro font/SofiaProRegular-Italic.eot");
-  src: local("..webfonts/sofia pro font/Sofia Pro Regular Italic"),
+  src: url("..ASSETS/webfonts/sofia pro font/SofiaProRegular-Italic.eot");
+  src: local("..ASSETS/webfonts/sofia pro font/Sofia Pro Regular Italic"),
     local("SofiaProRegular-Italic"),
-    url("..webfonts/sofia pro font/SofiaProRegular-Italic.eot?#iefix")
+    url("..ASSETS/webfonts/sofia pro font/SofiaProRegular-Italic.eot?#iefix")
       format("embedded-opentype"),
-    url("..webfonts/sofia pro font/SofiaProRegular-Italic.woff2")
+    url("..ASSETS/webfonts/sofia pro font/SofiaProRegular-Italic.woff2")
       format("woff2"),
-    url("..webfonts/sofia pro font/SofiaProRegular-Italic.woff") format("woff"),
-    url("..webfonts/sofia pro font/SofiaProRegular-Italic.ttf")
+    url("..ASSETS/webfonts/sofia pro font/SofiaProRegular-Italic.woff")
+      format("woff"),
+    url("..ASSETS/webfonts/sofia pro font/SofiaProRegular-Italic.ttf")
       format("truetype");
   font-weight: normal;
   font-style: italic;
@@ -26,7 +27,7 @@ body {
 
 footer {
   background-image: linear-gradient(rgb(95, 74, 60), rgba(0, 0, 0, 0.795)),
-    url(../img/bg.jpg);
+    url(../Images/images/bg.jpg);
   background-color: #645143;
   background-repeat: no-repeat;
   background-position: center;
