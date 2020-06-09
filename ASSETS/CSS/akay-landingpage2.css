@@ -1,0 +1,176 @@
+/* STYLING FOR MOBILE VIEW */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#landing2-wrapper{
+    background-color: #fff;
+    width: 100%;
+    padding: 0 1.5rem;
+
+}
+
+#landing2-header{
+    text-align: center;
+    margin: 2rem 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#landing2-header h2{
+    text-transform: uppercase;
+    color: #ff7913;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+#landing2-header h3{
+    color: #000;
+    font-size: 21px;
+    font-weight: 700;
+    margin: 1rem 0 2rem;
+}
+
+#landing2-img-wrapper img{
+    width: 100%;
+    height: 100%;
+    margin: 1.5rem 0;
+}
+
+.landing2-text-box h4{
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 1rem 0;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7em;
+}
+
+.landing2-text-box p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #000;
+    margin: 2rem 0;
+    line-height: 1.7em;
+}
+
+.landing2-btn{
+    margin: 3rem 0 2.5rem;
+    text-align: center;
+}
+
+.landing2-btn a{
+    background-color: #ff7913;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+
+/* STYLING FOR SCREENS BETWEEN 500PX AND 799PX */
+
+@media (min-width: 500px){
+    #landing2-wrapper{
+        background-color: #fff;
+        width: 100%;
+        padding: 0 5rem;
+    
+    }
+}
+
+
+/* FOR SCREENS 800PX AND ABOVE */
+
+@media (min-width: 800px) {
+    
+    #landing2-wrapper{
+        background-color: #fff;
+        width: 100%;
+        padding: 0 7rem;
+    
+    }
+    
+    #landing2-header{
+        text-align: center;
+        margin: 1.5rem 0;
+        font-family: 'Inter', sans-serif;
+    }
+ 
+    
+    #landing2-header h3{
+        color: #000;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0.5rem 0 1rem;
+    }
+    
+    .article-container{
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem 0 1rem;
+    
+    }
+    
+    #landing2-img-wrapper{
+        width: 47%;
+    }
+    
+    #landing2-img-wrapper img{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    
+    .landing2-text-box{
+        width: 47%;
+        align-items: center;
+        padding: 2rem 0;
+    }
+    
+    .landing2-text-box h4{
+        text-align: left;
+        color: #000;
+        font-size: 23px;
+        font-weight: 600;
+        margin: 0 0 1.5rem;
+        font-family: 'Inter', sans-serif;
+        line-height: 1.7em;
+    }
+    
+    .landing2-text-box p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        text-align: left;
+        color: #000;
+        margin: 2rem 0;
+        line-height: 1.7em;
+    }
+    
+    .landing2-btn{
+        margin: 2rem 0 1rem;
+        text-align: left;
+    }
+    
+    .landing2-btn a{
+        background-color: #ff7913;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: #fff;
+        border-radius: 30px;
+        padding: 10px 40px;
+        text-decoration: none;
+    }
+}
+
+
