@@ -1,0 +1,144 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.container-testimonies{
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    margin:10px;
+    align-items: center;
+}
+
+.container-about{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    overflow: auto;
+}
+
+.main-container{
+    margin: 20px;
+    /* overflow: auto; */
+    display: flex;
+    height: 70vh;
+    flex-grow: 1;
+
+}
+
+.container-item{
+    flex-basis: 400px;
+
+
+}
+.content{
+    text-align: center;
+    align-self: center;
+    flex-grow: 3;
+}
+.quote-1{
+    color:rgb(170, 170, 170);
+    text-align: center;
+    font-size: 4rem;
+    align-self: flex-start;
+
+}
+.quote-2{
+    align-self: flex-end;
+    color:rgb(170, 170, 170);
+    font-size: 4rem;
+    text-align: center;
+}
+
+.testimonies-text{
+    margin: 0;
+    font-size: 1.1rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #b03be6dc
+}
+.about-text{
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    }
+
+.box{
+    font-style: italic;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    font-weight: 300;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(212, 100, 48, 0.911);
+}
+
+.para{
+    font-weight: 700;
+    color: orange;
+    font-style: normal;
+}
+.ceo{
+    font-style: normal;
+}
+
+.buffer{
+    height: 2vh;
+}
+
+
+/* .box{
+    position: relative;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid rgba(212, 100, 48, 0.911);
+    margin: 100px auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.box::after{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-top: 2px solid white;
+    border-right: 2px solid rgba(212, 100, 48, 0.911);
+    border-bottom: 2px solid rgba(212, 100, 48, 0.911);
+    border-left: 2px solid white;
+    top:100%;
+    left: 50%;
+    margin-left: -4%;
+    content: "";
+    transform: rotate(45deg);
+    margin-top: -25px;
+    background-color: white;
+}  */
+
+@media (max-width:600px){
+    .testimonies-text,.box{
+        font-size: 13px;
+    }
+    .about-text{
+        font-size: 20px;
+    }
+    .quote{
+        font-size: 30px;
+        flex-shrink: 3;
+    }
+    .quote-1{
+        align-self: center;
+    }
+    .quote-2{
+        align-self: center;
+    }
+
+
+}
