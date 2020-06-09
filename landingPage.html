@@ -7,6 +7,54 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <style>
+        header{
+    background: url(assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    height: 100%;
+
+}
+
+@media screen and (max-width: 670px){
+    header{
+        min-height: 600px;
+        min-width: 550px;
+    }
+    
+    
+}
+
+.parts{
+    padding-top: 150px;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+#submit{
+    background-color: orange;
+    padding: 30px 10px 30px 10px;
+}
+
+.availability{
+    position: absolute;
+    left: 200px;
+    top: 750px;
+}
+
+#mobile-menu{
+    padding-top: 30%;
+}
+
+    </style>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
@@ -22,6 +70,66 @@
     <!-- ** STOPS AT THE SECTION THAT SAYS ** CHECK AVAILABILITY ** -->
 
         <!-- your codes here -->
+        <header >
+          <nav class="nav-wrapper transparent">
+              <div class="container">
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <div class="brand-logo">DELUXE</div>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a>About</a></li>
+                    <li><a>Rooms</a></li>
+                    <li><a>Facilities</a></li>
+                    <li><a>Contact Us</a></li>
+                   
+                </ul>
+
+                <ul class="sidenav blue lighten-5" id="mobile-menu">
+                    <li><a href="#">About</a></li><hr>
+                    <li><a href="#">Rooms</a></li><hr>
+                    <li><a href="#">Facilities</a></li><hr>
+                    <li><a href="#">Contact Us</a></li><hr>
+                    
+                </ul>
+
+            </div>
+          </nav>
+
+          <section>
+              <div class="container parts">
+                  <div class="row">
+                      <div class="col l6">
+                        <h4 class="white-text">WELCOME TO DELUXE </h4>
+                        <h2 class="white-text bold">Only Here You Will Feel At Home</h2>
+                        <p class="white-text">We Provide The Best Hospitality You Can Ever Imagine And Have Not Yet Experinve In Town. We Are The Best At What We Do</p>
+                      </div>
+                      <div class="col l6"></div>
+                  </div>
+                  
+              </div>
+              <div class="container white availability hide-on-med-and-down ">
+                  <div class="row">
+                      <div class="col l3 ">
+                        <label>Arrival date</label>
+                        <input type=date>
+                      </div>
+                      <div class="col l3 ">
+                        <label>Departure date</label>
+                        <input type=date>
+                    </div>
+                    <div class="col l3 ">
+                        <label>Person</label>
+                        <input type=number>
+                    </div>
+                    <div class="col l3 center" id="submit">
+                        <a href="#" class="white-text center">Check Availability</a>
+                    </div>
+                  </div>
+              </div>
+          </section>
+        </header>
 
 
     <!-- END OF FIRST PART HERE ** DO NOT EXCEED THIS SECTION-->
@@ -110,6 +218,15 @@
 
     <!-- END OF SEVENTH PART HERE ** DO NOT EXCEED THIS SECTION-->
     <!-- *********************************************** -->
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+    
+        })
+    </script>
 </body>
 </html>
