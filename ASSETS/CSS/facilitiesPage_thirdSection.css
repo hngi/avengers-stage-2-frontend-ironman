@@ -1,0 +1,12 @@
+#facilities_third_part_background{
+	background-color: red;
+	//position: absolute;
+	align-items: center;
+	margin: 3em 9em;
+	}
+
+#facilities_third_part{
+	margin: 30px;
+	float: left;
+	text-align: center;
+	}
