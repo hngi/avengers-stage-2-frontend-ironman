@@ -1,0 +1,80 @@
+
+.part6{
+    box-sizing: border-box;
+    margin: 50px auto;
+    font-family: arial,verdana,sans-serif;
+}
+.part6_header{
+    text-align: center;
+}
+.part6_header p{
+    line-height: 0;
+    color: purple;
+    font-size: 12px;
+    
+}
+.review{
+    box-sizing: content-box;
+    
+}
+.review-container{
+    box-sizing: border-box;
+    border: 0px solid;
+    position: relative;
+    height: auto;
+    width: 380px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    font-family: arial,verdana,sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: 	rgb(128,128,128);
+    box-shadow: 0px 0px 2px 0px inset rgba(255,0,0,0.5);
+}
+.review-container::after{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-top: 0px solid;
+    border-bottom: 0px solid;
+    border-right: 0px solid;
+    border-left: 0px solid ;
+    top: 99.5%;
+    left: 50%;
+    margin: auto;
+    margin-left: -25px;
+    margin-top: -15px;
+    transform: rotate(45deg);
+    content: '';
+    background: white;
+    box-shadow: 0.3px 0.3px 0px 0px rgba(255,0,0,0.5);
+}
+.cus-text{
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+.cus-name,.cus-portfolio{
+    text-align: center;
+}
+.cus-name{
+
+    color:chocolate;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 0;
+}
+.part6 img{
+    position: relative;
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
