@@ -196,4 +196,7 @@ nav.sticky{
     font-size:48px;
     line-height:60px;
   }
+  .nav-links{
+    width:60%;
+  }
 }
