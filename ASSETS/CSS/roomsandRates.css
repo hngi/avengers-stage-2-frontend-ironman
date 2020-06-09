@@ -1,0 +1,60 @@
+.header {
+    display: block;
+}
+.category1 {
+    position: absolute;
+    top: 3%;
+    min-width: 100%;
+}
+.category1 a {
+    float: right;
+    margin-top: 4%;
+    margin-right: 4%;
+    font-family: arial;
+    text-decoration: none;
+    color: white;
+}
+#cu {
+    float: right;
+    margin-top: 4%;
+    margin-right: 10.5%;
+    font-family: arial;
+    text-decoration: none;
+    color: white;
+}
+.category1 a:hover {
+    border-bottom: 2px solid red;
+    border-radius: 2px;
+}
+#deluxe {
+    font-family: 'Gill Sans';
+    float: left;
+    margin-top: 4%;
+    margin-left: 10.5%;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+#bg img {
+    width: 100%;
+}
+.rr {
+    margin-left: 10.5%;
+    top: 45%;
+    position: absolute;
+    font-family: sans-serif;
+    font-stretch: ultra-expanded;
+    font-size: 110%;
+    color: white;
+}
+.goodstandard {
+    position: absolute;
+    top: 50%;
+    margin-left: 10.5%;
+    font-size: 380%;
+    font-family: arial;
+    color: white;
+    line-height: 165%;
+    text-shadow: 5px 5px 10px black;
+}
+
