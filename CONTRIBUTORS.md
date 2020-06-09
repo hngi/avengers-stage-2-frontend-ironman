@@ -14,5 +14,3 @@
 -  [@Dtblaze02](http://github.com/Dtblaze02)
 
 -  [@IbnMaruf](http://github.com/IbnMaruf)
-
--  [@emmacodemy](http://github.com/emmacodemy)
