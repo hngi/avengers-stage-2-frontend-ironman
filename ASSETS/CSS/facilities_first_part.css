@@ -1,0 +1,83 @@
+ul a:hover{
+  color: white !important;
+}
+
+nav li{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+li > a:after{
+    content: '';
+    display: block;
+    height: 1.5px;
+    background: orangered;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+
+li > a:hover:after{
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+
+.active{
+    color: white !important;
+}
+
+.background {
+    display: block;
+    position: relative;
+    background-color: rgba(0,0,0,0.5);
+    min-height: 1018.81px;
+    height: auto;
+}
+
+.background::after {
+    content: "";
+    background: #2b2d34 url(../Images/images/16.jpg);
+    background-size: cover;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+.parentbox {
+    text-align: left; 
+}
+
+.parentbox:before {      
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    min-height: 1018.81px;
+    height: auto;
+}
+    
+.childbox {
+    display: inline-block;
+    vertical-align: middle;          
+}
+
+.childbox p{
+    font-family: "Lucida Console", Monaco, monospace; 
+    font-size: 30px;
+    padding-left: 1rem;
+    color: white;
+}
+
+.childbox h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 75px;
+    font-weight: 900;
+    padding-left: 1rem;
+    color: white;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
