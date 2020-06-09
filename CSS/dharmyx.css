@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    width: 100%;
+    height: auto;
+    background-color: #645143;
+}
+
+.inner-footer {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: ". a b c d . e .";
+}
+.footer-logo {
+    grid-area: a;
+    font-family: 'Rakkas', Roboto;
+}
+.footer-logo p {
+    font-size: 2rem;
+    color: #fff;
+    padding: 10px 0;
+}
+.qlinks1 {
+    grid-area: b;
+    color: #fff;
+    font-family: 'Open Sans', Roboto;
+    padding: 10px 0;
+    margin: 0 50px;
+}
+.qlinks2 {
+    grid-area: c;
+    color: #fff;
+    font-family: 'Open Sans', Roboto;
+    padding: 10px 0;
+    margin: 0 30px;
+}
+.qlinks3 {
+    grid-area: d;
+    color: #fff;
+    font-family: 'Open Sans', Roboto;
+    padding: 10px 0;
+    margin: 0 50px;
+}
+.socials {
+    grid-area: e;
+    color: #fff;
+    font-family: 'Open Sans', Roboto;
+    padding: 10px 0;
+}
+.copyright {
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', Roboto;
+    font-size: .7rem;
+    padding: 25px;
+    margin: 20px 0;
+}
+p {
+    font-size: .8rem;
+    padding: 10px 0;
+}
+.features {
+    font-size: 1rem;
+    padding: 10px 0;
+}
+.follow {
+    font-size: .9rem;
+    padding: 10px 0;
+}
+.feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+.fab {
+    font-size: 1.2rem;
+}
+
+
+
+/* MEDIA QUERRY SECTION */
+
+@media (max-width: 768px) {
+    .inner-footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-logo p {
+        font-size: 1.5rem;
+    }
+    .follow {
+        font-size: .9rem;
+        padding: 30px 0;
+    }
+    .feature {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-self: center;
+    }
+    .copyright {
+        text-align: center;
+        color: #fff;
+        font-family: 'Open Sans', Roboto;
+        font-size: .7rem;
+        padding: 5px;
+        margin: 10px 0;
+    }
+    .fab {
+        padding: 20px;
+    }
+}
