@@ -74,8 +74,13 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+  #fifth-part {
+    text-align: center;
+    margin: 50px 50px;
+  }
+
   .facility {
-    min-width: 160px;
+    min-width: 190px;
     height: 200px;
   }
 }
