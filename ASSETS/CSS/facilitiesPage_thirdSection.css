@@ -1,12 +1,53 @@
-#facilities_third_part_background{
-	background-color: red;
-	//position: absolute;
-	align-items: center;
-	margin: 3em 9em;
+
+@media screen and (min-width: 1024px) {
+
+    #facilities_third_part_background{
+		//position: absolute;
+		//align-items: center;
+		margin-top: 50px;
+		margin-left: 50px;
+
 	}
 
 #facilities_third_part{
-	margin: 30px;
-	float: left;
-	text-align: center;
+		padding-left: 20px;
+		margin: 30px;
+		float: left;
+		position: relative;
+		//width: 150px;
+		text-align: center;
 	}
+}
+
+@media screen and (max-width: 1024xpx){
+     #facilities_third_part_background{
+		//display: inline-block;
+		//margin: 3em 8em;
+	}
+	#facilities_third_part{
+		padding: 5px;
+		position: relative;
+		margin: 10px;
+		//float: left;
+		text-align: center;
+	}
+
+	/* Create four equal columns that floats next to each other */
+	.column1 {
+	  float: left;
+	  width: 25%;
+	}
+
+	/* Create four equal columns that floats next to each other */
+	.column2 {
+	  float: left;
+	  width: 33.33%;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+}
