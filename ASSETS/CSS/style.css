@@ -1,3 +1,8 @@
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
 footer {
   background-image: linear-gradient(rgb(95, 74, 60), rgba(0, 0, 0, 0.795)),
     url(../Images/images/bg.jpg);
@@ -32,11 +37,6 @@ hr.light-100 {
   width: 100%;
   margin-top: 0.8rem;
   margin-bottom: 1rem;
-}
-
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-  padding: 1rem;
 }
 
 .cardRooms {

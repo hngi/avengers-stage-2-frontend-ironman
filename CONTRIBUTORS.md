@@ -17,5 +17,3 @@
 - [@IbnMaruf](http://github.com/IbnMaruf)
 
 - [@emmacodemy](http://github.com/emmacodemy)
-
-- [@shadowfax-ng](http://github.com/shadowfax-ng)
