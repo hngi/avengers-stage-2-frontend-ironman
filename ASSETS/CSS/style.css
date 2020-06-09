@@ -1,0 +1,57 @@
+
+.container1 {
+    position: absolute;
+    top: 3%;
+    width: 100%;
+}
+.container1 a {
+    float: right;
+    margin-top: 3%;
+    margin-right: 6%;
+    font-family: 'open sans';
+    text-decoration: none;
+    color: white;
+}
+#contactUs {
+    float: right;
+    margin-top: 3%;
+    margin-right: 10.5%;
+    font-family: helvetica;
+    text-decoration: none;
+    color: white;
+}
+.container1 a:hover {
+    border-bottom: 2px dotted red;
+    border-radius: 2px;
+}
+#deluxe {
+    font-family: 'rakkas';
+    float: left;
+    margin-top: 3%;
+    margin-left: 11%;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+#background img {
+    width: 100%;
+}
+.open{
+    margin-left: 10.5%;
+    top: 45%;
+    position: absolute;
+    font-family: times;
+    font-stretch: ultra-expanded;
+    font-size: 110%;
+    color: white;
+}
+.close {
+    position: absolute;
+    top: 50%;
+    margin-left: 10.5%;
+    font-size: 380%;
+    font-family: verdana;
+    color: white;
+    line-height: 165%;
+}
+
