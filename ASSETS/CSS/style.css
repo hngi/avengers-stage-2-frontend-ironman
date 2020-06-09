@@ -1,3 +1,44 @@
+footer {
+  background-image: linear-gradient(rgb(95, 74, 60), rgba(0, 0, 0, 0.795)),
+    url(../Images/images/bg.jpg);
+  background-color: #645143;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fcf7f7;
+  padding-top: 2rem;
+}
+
+hr.light {
+  border-top: 0.1px solid #746059;
+  width: auto;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #fcf7f7;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fae100f8;
+  font-size: 101%;
+  transition: ease-in-out, 0.5s;
+}
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
 .cardRooms {
   display: flex;
   flex-wrap: wrap;
