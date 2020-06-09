@@ -1,0 +1,25 @@
+img {
+  width: 280px;
+  height: 280px;
+  margin: 5px;
+}
+.facilities {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
