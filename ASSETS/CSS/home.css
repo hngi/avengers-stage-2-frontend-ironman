@@ -94,3 +94,37 @@ body {
     background-color: #ffffff;
     color: #ff7913;
 }
+
+/* making it responsive landing page part one responsive */
+
+@media only screen and (max-width: 900px) {
+    .hospitality__text {
+        font-size: 3rem;
+    }
+
+    .btn,
+    .btn:link,
+    .btn:visited {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hospitality__text {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        width: 80%;
+        text-align: center;
+    }
+
+    .btn,
+    .btn:link,
+    .btn:visited {
+        font-size: 1.5rem;
+        padding: 1.2rem 4rem;
+    }
+
+    .hospitality {
+        flex-direction: column;
+    }
+}
