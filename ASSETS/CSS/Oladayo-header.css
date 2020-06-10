@@ -45,6 +45,9 @@ li a {
 
 .active {  
   color: white;
+}
+.description {
+ padding-left: 46px;
 }  
 }
 
@@ -89,7 +92,12 @@ ul {
 .active {
   color: white;
 }
-  
+
+/* style description part*/
+.description {
+ padding-left: 16px;
+}
+
 /* style booking form */
 .form-container{
   position: absolute;
