@@ -8,9 +8,10 @@
     float: right;
     margin-top: 3%;
     margin-right: 6%;
-    font-family: 'open sans';
+    font-family: helvetica;
     text-decoration: none;
     color: white;
+    font-size: 1.4vw;
 }
 #contactUs {
     float: right;
@@ -19,39 +20,41 @@
     font-family: helvetica;
     text-decoration: none;
     color: white;
+    font-size: 1.4vw;
 }
 .container1 a:hover {
-    border-bottom: 2px dotted red;
-    border-radius: 2px;
+    border-bottom: 0.1vw dotted red;
+    border-radius: 0.1vw;
 }
 #deluxe {
-    font-family: 'rakkas';
+    font-family: 'lucida sans';
     float: left;
-    margin-top: 3%;
+    margin-top: 2.6%;
     margin-left: 11%;
-    font-size: 22px;
     color: white;
     text-decoration: none;
+    font-size: 2vw;
 }
 #background img {
     width: 100%;
 }
-.open{
+.open {
     margin-left: 10.5%;
-    top: 45%;
+    top: 23vw;
     position: absolute;
     font-family: times;
     font-stretch: ultra-expanded;
-    font-size: 110%;
     color: white;
+    font-size: 1.4vw;
 }
 .close {
     position: absolute;
-    top: 50%;
+    top: 23vw;
     margin-left: 10.5%;
     font-size: 380%;
     font-family: verdana;
     color: white;
-    line-height: 165%;
+    font-size: 4vw;
+    line-height: 5vw;
 }
 
