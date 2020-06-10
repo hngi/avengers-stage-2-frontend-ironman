@@ -84,11 +84,6 @@
     margin: 50px 50px;
   }
 
-  .type {
-    margin: 0 auto;
-    font-size: 1.2rem;
-  }
-
   .room {
     width: 25%;
     height: 160px;
@@ -109,7 +104,7 @@
   }
 
   #third-part h2 {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   #third-part span {
