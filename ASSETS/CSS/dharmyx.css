@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rakkas&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    background-color: #645143;
+    width: auto;
+    height: auto;
+}
+.footer-inner {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: ". a b c d . e .";
+}
+.footer-logo {
+    grid-area: a;
+    font-family: 'Rakkas', Roboto;
+    font-size: 2rem;
+    padding: 20px 0;
+    color: #ffffff;
+}
+.footer-rooms {
+    grid-area: b;
+    padding: 20px 0;
+    margin: 0 0 0 50px;
+    font-family: 'Open Sans', Roboto;
+}
+.room,
+.rooms {
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 0;
+    font-family: 'Open Sans', Roboto;
+    cursor: pointer;
+}
+.rooms a {
+    font-size: .9rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', Roboto;
+}
+.rooms a:hover,
+.facilities a:hover,
+.locates a:hover {
+    color: #dddddd;
+}
+.footer-facilities {
+    grid-area: c;
+    padding: 20px 0;
+    margin: 0 0 0 50px;
+    font-family: 'Open Sans', Roboto;
+}
+.facility,
+.facilities {
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 0;
+    font-family: 'Open Sans', Roboto;
+    cursor: pointer;
+}
+.facilities a {
+    font-size: .9rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', Roboto;
+}
+.footer-location {
+    grid-area: d;
+    padding: 20px 0;
+    margin: 0 0 0 50px;
+    font-family: 'Open Sans', Roboto;
+}
+.locate,
+.locates {
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 0;
+    font-family: 'Open Sans', Roboto;
+    cursor: pointer;
+}
+.locates a {
+    font-size: .9rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', Roboto;
+}
+.footer-socials {
+    grid-area: e;
+    padding: 20px 0;
+}
+.follow {
+    color: #fff;
+    font-size: .9rem;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Open Sans', Roboto;
+    cursor: pointer;
+}
+.copy {
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', Roboto;
+    font-size: .7rem;
+    font-weight: 200;
+    padding: 50px 0;
+}
+.fab {
+    font-size: .7rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* MEDIA QUERRY */
+
+
+@media (max-width: 768px) {
+    .footer-inner {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas: "a b c d"
+        "e e e e";
+    }
+    .footer-logo {
+        grid-area: a;
+        font-family: 'Rakkas', Roboto;
+        font-size: 1.5rem;
+        padding: 40px 20px;
+        color: #ffffff;
+    }
+    .footer-rooms {
+        grid-area: b;
+        padding: 40px 0;
+        margin-left: 20px;
+    }
+    .room,
+    .rooms {
+        font-size: .95rem;
+    }
+    .rooms a {
+        font-size: .8rem;
+    }
+    
+    .footer-facilities {
+        grid-area: c;
+        padding: 40px 0;
+        margin-left: 20px;
+    }
+    .facility,
+    .facilities {
+        font-size: .95rem;
+    }
+    .facilities a {
+        font-size: .8rem;
+    }
+    .footer-location {
+        grid-area: d;
+        padding: 40px 0;
+        margin-left: 20px;
+    }
+    .locate,
+    .locates {
+        font-size: .95rem;
+    }
+    .locates a {
+        font-size: .8rem;
+    }
+    .footer-socials {
+        grid-area: e;
+        padding: 20px 0;
+    }
+    .follow {
+        font-size: .95rem;
+    }
+    .copy {
+        text-align: center;
+        color: #fff;
+        font-family: 'Open Sans', Roboto;
+        font-size: .7rem;
+        font-weight: 200;
+        padding: 50px 0;
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .fab {
+        font-size: .7rem;
+        color: #fff;
+        padding: 20px;
+    }
+}
