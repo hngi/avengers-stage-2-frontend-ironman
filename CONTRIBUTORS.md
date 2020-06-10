@@ -25,3 +25,5 @@
 -  [@samueladeniyi](http://github.com/samueladeniyi)
 
 -  [@hurshore](https://github.com/hurshore)
+
+- [@cooncudee](https://github.com/cooncudee)
