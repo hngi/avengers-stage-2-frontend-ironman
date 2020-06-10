@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Open+Sans:wght@400;600&display=swap');
 
 *{
@@ -228,3 +229,56 @@ p.facility-icon{
   }
 }
 /* MEDIA QUERIES */
+=======
+/* FACILITY CARDS */
+.cardFacilitys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.facilityName a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.facilityName a:hover {
+  width: 50%;
+  content: "";
+  bottom: 0px;
+  left: 25%;
+  right: 25%;
+  color: #ffffffb2;
+  border-bottom: 4px solid #ffffffb2;
+  z-index: 9999;
+}
+.cardFacilitys .cardFacility {
+  position: relative;
+  margin: 45px 20px;
+  width: 351px;
+  height: 442px;
+  background: rgba(0, 0, 0, 0.49);
+}
+.img {
+  width: 351px;
+  height: 442px;
+  left: 201px;
+  top: 1157px;
+  background: rgba(0, 0, 0, 0.49);
+}
+.facilityName {
+  position: absolute;
+  height: 40px;
+  display: block;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+  color: #ffffff;
+}
+>>>>>>> b361e52f68b7633fee908dc0bf1804b53a407133
