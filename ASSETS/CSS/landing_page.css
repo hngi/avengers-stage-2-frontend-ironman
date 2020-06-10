@@ -29,3 +29,12 @@
     font-size: 20px;
     font-family: "Open sans", sans-serif;
 }
+
+@media screen and (max-width: 800px) {
+    .section-hospitality,
+    .hospitality__text,
+    .btn {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
