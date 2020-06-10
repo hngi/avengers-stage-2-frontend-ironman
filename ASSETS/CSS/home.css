@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* this makes text responsive  ,this set html size to 10px ,i use text so it can be easy to set-up sizes without doing much calculation */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* this contains styles for centering each content on the page */
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+
+/* this contain styles for part 4 */
+
+.section-hospitality {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 50.52%, rgba(255, 251, 245, 0.3) 100%),
+        url("../Images/images/landpagep4.jpg");
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.hospitality {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hospitality__text {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.3rem;
+    color: #FFFFFF;
+    width: 55%;
+    margin-left: 1rem;
+}
+
+.hospitality__button {
+    margin-right: 1rem;
+}
+
+/* this contains style for buttons in this section */
+.btn,
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: "Opens sans";
+    font-weight: 600;
+    padding: 1.4rem 5rem;
+    transition: all .2s;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+
+.btn:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.btn--round {
+    border-radius: 4rem;
+}
+
+.btn--white {
+    background-color: #ffffff;
+    color: #ff7913;
+}
+
+/* making it responsive landing page part one responsive */
+
+@media only screen and (max-width: 900px) {
+    .hospitality__text {
+        font-size: 3rem;
+    }
+
+    .btn,
+    .btn:link,
+    .btn:visited {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hospitality__text {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        width: 80%;
+        text-align: center;
+    }
+
+    .btn,
+    .btn:link,
+    .btn:visited {
+        font-size: 1.5rem;
+        padding: 1.2rem 4rem;
+    }
+
+    .hospitality {
+        flex-direction: column;
+    }
+}
