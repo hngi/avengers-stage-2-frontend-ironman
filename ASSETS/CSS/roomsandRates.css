@@ -1,3 +1,6 @@
+body {
+    margin: 0 auto;
+}
 .header {
     display: block;
 }
@@ -6,55 +9,60 @@
     top: 3%;
     min-width: 100%;
 }
+
 .category1 a {
     float: right;
-    margin-top: 4%;
+    margin-top: 3.5%;
     margin-right: 4%;
     font-family: arial;
     text-decoration: none;
     color: white;
+    font-size: 1.3vw;
 }
 #cu {
     float: right;
-    margin-top: 4%;
+    margin-top: 3.5%;
     margin-right: 10.5%;
     font-family: arial;
     text-decoration: none;
     color: white;
+    font-size: 1.3vw;
 }
 .category1 a:hover {
-    border-bottom: 2px solid red;
-    border-radius: 2px;
+    border-bottom: 0.1vw solid red;
+    border-radius: 0.1vw;
 }
 #deluxe {
     font-family: 'Gill Sans';
     float: left;
-    margin-top: 4%;
+    margin-top: 3.5%;
     margin-left: 10.5%;
-    font-size: 22px;
+    font-size: 2vw;
     color: white;
     text-decoration: none;
 }
 #bg img {
     width: 100%;
 }
+
 .rr {
     margin-left: 10.5%;
-    top: 45%;
+    top: 23.5vw;
     position: absolute;
     font-family: sans-serif;
     font-stretch: ultra-expanded;
-    font-size: 110%;
+    font-size: 1.1vw;
     color: white;
 }
 .goodstandard {
     position: absolute;
-    top: 50%;
+    top: 26vw;
+    margin: 0 auto;
     margin-left: 10.5%;
-    font-size: 380%;
+    font-size: 3.5vw;
     font-family: arial;
     color: white;
     line-height: 165%;
-    text-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 5px black;
 }
 
