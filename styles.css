@@ -79,14 +79,14 @@ body {
     text-align: center;
     margin-top: 96px;
 }
-.icon-container {
+.icons-container {
     display: inline-block;
     margin-right: 150px;
 }
-.icon-container:nth-child(7) {
+.icons-container:nth-child(7) {
     margin-right: 0px;
 }
-.icon-container p {
+.icons-container p {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -112,17 +112,18 @@ body {
         color: #FF7913;
         margin-top: 40px;    
     }
-    .icon-container {
+    .icons-container {
       margin-right: 30px;
+      margin-bottom: 20px;
     }
-    .icon-container img {
+    .icons-container img {
         max-width: 30.58px;
     }
-    .icon-container p {
+    .icons-container p {
         margin-top: 15.6px;
         font-size: 12px;
     }
-    .icon-container:nth-child(4) {
+    .icons-container:nth-child(4) {
         margin-right: 0px;
     }
     .facilities-icons {
