@@ -44,7 +44,6 @@ hr.light-100 {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .cardWrapper {
   width: 25%;
 }
@@ -62,10 +61,7 @@ hr.light-100 {
   border-radius: 30px;
 }
 .roomRating {
-  /* 4.6 */
   position: absolute;
-  width: 23px;
-  height: 40px;
   top: 0;
   text-align: center;
   font-family: "Open Sans", sans-serif;
@@ -73,16 +69,13 @@ hr.light-100 {
   font-weight: 600;
   font-size: 16px;
   line-height: 40px;
-  /* identical to box height, or 250% */
   color: #ffffff;
   width: 83px;
   height: 36px;
-
   background: #ff7913;
   border-radius: 20px;
 }
 .img {
-  /* position: absolute; */
   width: 351px;
   height: 300px;
   left: 201px;
@@ -92,8 +85,6 @@ hr.light-100 {
   border-radius: 30px 30px 0px 0px;
 }
 .roomType {
-  /* position: absolute; */
-  /* width: 112px; */
   height: 40px;
   left: 25px;
   top: 321px;
@@ -103,13 +94,9 @@ hr.light-100 {
   font-weight: normal;
   font-size: 20px;
   line-height: 40px;
-  /* identical to box height, or 200% */
-
   color: #000000;
 }
 .roomPrice {
-  /* $100 */
-  /* position: absolute; */
   width: 51px;
   height: 40px;
   float: right;
@@ -118,42 +105,35 @@ hr.light-100 {
   font-weight: 600;
   font-size: 22px;
   line-height: 40px;
-  /* identical to box height, or 182% */
   color: #ff7913;
 }
 .roomInfo {
-  /* position: absolute; */
-  /* width: 154px; */
   height: 40px;
   clear: both;
-
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 40px;
-  /* identical to box height, or 250% */
   color: rgba(0, 0, 0, 0.6);
 }
 .roomBooknow {
-  /* Book Now */
   text-align: center;
-  /* position: absolute; */
-  width: 79px;
-  height: 40px;
   font-family: "Open Sans", sans-serif;
   display: block;
   margin: auto;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  /* identical to box height, or 250% */
   color: #ffffff;
-
   width: 197px;
   height: 50px;
-
+outline: 0;
   background: #ff7913;
   border-color: transparent;
   border-radius: 40px;
+}
+.roomBooknow:hover {
+  background: rgba(255, 121, 19, 0.5);
+  cursor: pointer;
 }
