@@ -1,16 +1,19 @@
 # Contributors
--  [@elcozy](https://github.com/elcozy)
 
--  [@ifatoki](https://github.com/ifatoki)
+- [@elcozy](https://github.com/elcozy)
 
--  [@Code_Otchere](http://github.com/OtchereDev)
+- [@ifatoki](https://github.com/ifatoki)
 
--  [@saslamp](http://github.com/saslamp)
+- [@Code_Otchere](http://github.com/OtchereDev)
 
--  [@mistajide](http://github.com/mistajide)
+- [@saslamp](http://github.com/saslamp)
 
--  [@TChukwuleta](http://github.com/TChukwuleta)
+- [@mistajide](http://github.com/mistajide)
 
--  [@Dtblaze02](http://github.com/Dtblaze02)
+- [@TChukwuleta](http://github.com/TChukwuleta)
 
--  [@IbnMaruf](http://github.com/IbnMaruf)
+- [@Dtblaze02](http://github.com/Dtblaze02)
+
+- [@IbnMaruf](http://github.com/IbnMaruf)
+
+- [@Dex_Codes](http://github.com/DesmondSanctity)
