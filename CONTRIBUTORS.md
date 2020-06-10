@@ -16,6 +16,10 @@
 
 - [@IbnMaruf](http://github.com/IbnMaruf)
 
-- [@emmacodemy](http://github.com/emmacodemy)
-
 - [@emmanuelr20](http://github.com/emmanuelr20)
+
+-  [@larrycoal](http://github.com/larrycoal)
+
+-  [@emmacodemy](http://github.com/emmacodemy)
+
+-  [@hurshore](https://github.com/hurshore)
