@@ -19,124 +19,140 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#fifth-part {
+#third-part {
   text-align: center;
   margin: 50px 150px;
 }
 
-#fifth-part span {
+#third-part span {
   font-style: normal;
   font-weight: 500;
   font-size: 1.3em;
   line-height: 40px;
   letter-spacing: 0.35em;
   text-transform: uppercase;
-  color: #0129b6;
+  color: #02bb1f;
 }
 
-#fifth-part h2 {
+#third-part h2 {
   font-style: normal;
   font-weight: bolder;
   font-size: 2.2em;
   line-height: 40px;
 }
 
-#facilities {
+#rooms {
   display: flex;
   padding: 30px 0;
 }
-#services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-  grid-gap: 30px;
-}
-.facility {
+
+#room-types {
+  padding-top: 30px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 240px;
-  height: 270px;
-  margin: 0 auto;
-  font-size: 1.4rem;
-  color: #fff;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-.service {
+.room {
+  width: 25%;
+  height: 230px;
+  padding: 10px;
   margin: 0 auto;
 }
-.service img {
-  width: 35px;
-  height: 35px;
-  margin-bottom: 10px;
+
+.room img {
+  width: 100%;
+  height: 100%;
+}
+
+.type {
+  margin: 0 auto;
+  padding: 10px 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #333;
+}
+
+#view-more {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#more-rooms {
+  padding: 0.9rem 4rem;
+  border: none;
+  background: rgba(255, 69, 0, 0.1);
+  color: #ff7913;
+}
+
+#more-rooms:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
 }
 
 @media screen and (max-width: 1024px) {
-  #fifth-part {
+  #third-part {
     text-align: center;
     margin: 50px 50px;
   }
 
-  .facility {
-    min-width: 190px;
+  .room {
     height: 200px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #fifth-part {
+  #third-part {
     margin: 50px 50px;
   }
-  .facility {
-    min-width: 155px;
-    height: 180px;
+
+  .type {
+    margin: 0 auto;
+    font-size: 1.2rem;
   }
-  .service img {
-    width: 30px;
-    height: 30px;
+
+  .room {
+    width: 25%;
+    height: 160px;
   }
 }
 
 @media screen and (max-width: 546px) {
-  #facilities {
+  #rooms {
     flex-direction: column;
   }
 
-  #fifth-part h2 {
+  #view-more {
+    justify-content: center;
+  }
+
+  #room-types {
+    padding: 0;
+  }
+
+  #third-part h2 {
     font-size: 1.5em;
   }
 
-  #fifth-part span {
+  #third-part span {
     font-size: 1em;
   }
 
-  .facility {
-    min-width: 280px;
+  .room {
+    width: 80%;
     height: 200px;
     margin-bottom: 20px;
-  }
-
-  .service img {
-    width: 25px;
-  }
-
-  .service p {
-    font-size: 0.5em;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .facility {
+  .room {
     min-width: 230px;
   }
 
-  #fifth-part h2 {
+  #third-part h2 {
     font-size: 1em;
   }
 
-  #fifth-part span {
+  #third-part span {
     font-size: 0.7em;
   }
 }
