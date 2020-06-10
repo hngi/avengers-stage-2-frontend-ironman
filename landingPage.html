@@ -34,7 +34,39 @@
 <!-- ** STOPS AT THE SECTION THAT SAYS ** CHECK AVAILABILITY ** -->
 
 <!-- your codes here -->
-
+<header class="mobile-container"> 
+   <!-- Top Navigation Menu --> 
+   <div class="topnav"> 
+    <a href="#home" class="active">Deluxe</a> 
+    <div id="myLinks"> 
+     <ul> 
+      <li><a href="#">About</a></li> 
+      <li><a href="#">Rooms</a></li> 
+      <li><a href="#">Facilities</a></li> 
+      <li><a href="#">Contact Us</a></li> 
+     </ul> 
+    </div> 
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a> 
+   </div> 
+   <!-- hotel description content --> 
+   <div class="description"> 
+    <h3>welcome to Deluxe</h3> 
+    <h2 class="motto">only here you will feel at home</h2> 
+    <p>Not everything in Old City of Benin is old. Here's where history meets contemporary cool</p> 
+    <p>Browse our range of rooms anf facilitiea and make a booking or go to hell..</p> 
+    <p>You know what it is</p> 
+   </div> 
+   <!-- Booking form --> 
+   <form action="/action_page.php" class="form-container"> 
+    <label for="arrival">ARRIVAL DATE </label> 
+    <input type="date" name="arrival"> 
+    <label for="departure">DEPARTURE DATE </label> 
+    <input type="date" id="departure"> 
+    <label for="person-number">PERSON</label> 
+    <select id="person-number"> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> </select> 
+    <input type="submit" class="btn" value="Check Availability"> 
+   </form> 
+  </header>
 
 <!-- END OF FIRST PART HERE ** DO NOT EXCEED THIS SECTION-->
 <!-- *********************************************** -->
