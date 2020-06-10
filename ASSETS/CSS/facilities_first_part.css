@@ -29,14 +29,14 @@ li > a:hover:after{
     display: block;
     position: relative;
     background-color: rgba(0,0,0,0.5);
-    min-height: 1018.81px;
-    height: auto;
+    height: 1018.81px;
 }
 
 .background::after {
     content: "";
     background: #2b2d34 url(../Images/images/16.jpg);
     background-size: cover;
+    height: auto;
     opacity: 1;
     top: 0;
     left: 0;
@@ -46,31 +46,25 @@ li > a:hover:after{
     z-index: -1;   
 }
 
-.parentbox {
+.phrase {
     text-align: left; 
-}
-
-.parentbox:before {      
-    content: ' ';
     display: inline-block;
-    vertical-align: middle;
-    min-height: 1018.81px;
     height: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
     
-.childbox {
-    display: inline-block;
-    vertical-align: middle;          
-}
-
-.childbox p{
+.phrase p{
     font-family: "Lucida Console", Monaco, monospace; 
     font-size: 30px;
     padding-left: 1rem;
     color: white;
 }
 
-.childbox h1{
+.phrase h1{
     font-family: 'Ubuntu', sans-serif;
     font-size: 75px;
     font-weight: 900;
