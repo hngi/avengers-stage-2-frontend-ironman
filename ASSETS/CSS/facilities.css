@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Open+Sans:wght@400;600&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ffffff;
+}
+
+div.facility-container{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px;
+}
+
+/* START OF STYLING OF THE HEAD TEXTS */
+p.main{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.35em;
+  text-align: center;
+  color: #FF7913;
+}
+
+p.sub{
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 0;
+  color: #000000;
+}
+/* END OF STYLING OF THE HEAD TEXTS */
+
+/* START OF STYLING OF THE FACILITIES IMAGES SECTION */
+div.facility-images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+div.spa, div.gym, div.restaurant, div.swimming-pool{
+  width: 100%;
+  height: 62.5vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+div.spa{
+  background-image: url(../Images/images/7.jpg);
+}
+
+div.gym{
+  background-image: url(../Images/images/8.jpg);
+}
+
+div.restaurant{
+  background-image: url(../Images/images/9.jpg);
+}
+
+div.swimming-pool{
+  background-image: url(../Images/images/21.jpg);
+}
+
+div.text-container{
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.49);
+}
+
+p.facility{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+/* END OF STYLING OF THE FACILITIES IMAGES SECTION */
+
+/* START OF STYLING OF THE OTHER SERVICES IN FACILITIES SECTION */
+div.facility-icons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+div.facility-icon-1, div.facility-icon-2, div.facility-icon-3, div.facility-icon-4, div.facility-icon-5, div.facility-icon-6, div.facility-icon-7{
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+img.facility-icon{
+  width: 30px;
+  height: 30px;
+}
+
+p.facility-icon{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+/* END OF STYLING OF THE OTHER SERVICES IN FACILITIES SECTION */
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 567px){
+  p.main{
+    font-size: 15px;
+    color: #0129B6;
+  }
+  
+  p.sub{
+    font-size: 25px;
+  }
+
+  div.spa, div.gym, div.restaurant, div.swimming-pool{
+    width: 23.5%;
+    height: 49vh;
+    margin-right: 10px;
+  }
+
+  div.restaurant, div.swimming-pool{
+    margin-bottom: 30px;
+  }
+
+  div.swimming-pool{
+    margin-right: 0;
+  }
+
+  p.facility{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 639px){
+  p.sub{
+    font-size: 28px;
+  }
+
+  div.facility-icon-1, div.facility-icon-2, div.facility-icon-3, div.facility-icon-4, div.facility-icon-5, div.facility-icon-6, div.facility-icon-7{
+    margin: 10px 15px;
+  }
+
+  img.facility-icon{
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (min-width: 666px){
+  p.sub{
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 707px){
+  div.spa, div.gym, div.restaurant, div.swimming-pool{
+    height: 22vh;
+  }
+}
+
+@media screen and (min-width: 799px){
+  div.spa, div.gym, div.restaurant, div.swimming-pool{
+    height: 19vh;
+  }
+}
+
+@media screen and (min-width: 1023px){
+  div.facility-container{
+    margin: 30px 40px;
+  }
+
+  div.facility-images{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  div.spa, div.gym, div.restaurant, div.swimming-pool{
+    width: 23%;
+    height: 35vh;
+    margin-right: 20px;
+  }
+
+  div.swimming-pool{
+    margin-right: 0;
+  }
+
+  div.facility-icons{
+    justify-content: space-around;
+  }
+
+  div.facility-icon-1, div.facility-icon-2, div.facility-icon-3, div.facility-icon-4, div.facility-icon-5, div.facility-icon-6, div.facility-icon-7{
+    margin: 0;
+  }
+  
+  p.facility-icon{
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1349px){
+  div.facility-container{
+    margin: 30px 100px;
+  }
+
+  div.spa, div.gym, div.restaurant, div.swimming-pool{
+    height: 50vh;
+  }
+
+  div.facility-icon-1, div.facility-icon-2, div.facility-icon-3, div.facility-icon-4, div.facility-icon-5, div.facility-icon-6, div.facility-icon-7{
+    width: 100px;
+  }
+}
+/* MEDIA QUERIES */
