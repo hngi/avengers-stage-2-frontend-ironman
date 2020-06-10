@@ -1,13 +1,12 @@
 
 .container1 {
     position: absolute;
-    top: 3%;
-    width: 100%;
+    top: 6vw;
+    min-width: 100%;
 }
 .container1 a {
     float: right;
-    margin-top: 3%;
-    margin-right: 6%;
+    margin-right: 4vw;
     font-family: helvetica;
     text-decoration: none;
     color: white;
@@ -15,8 +14,7 @@
 }
 #contactUs {
     float: right;
-    margin-top: 3%;
-    margin-right: 10.5%;
+    margin-right: 10vw;
     font-family: helvetica;
     text-decoration: none;
     color: white;
@@ -26,10 +24,10 @@
     border-bottom: 0.1vw dotted red;
     border-radius: 0.1vw;
 }
-#deluxe {
+#logo {
+    margin-top: inherit;
     font-family: 'lucida sans';
     float: left;
-    margin-top: 2.6%;
     margin-left: 11%;
     color: white;
     text-decoration: none;
@@ -57,4 +55,3 @@
     font-size: 4vw;
     line-height: 5vw;
 }
-
