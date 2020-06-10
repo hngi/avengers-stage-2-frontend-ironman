@@ -109,11 +109,20 @@
     font-weight: 200;
     padding: 50px 0;
 }
-.fab {
-    font-size: .7rem;
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fa-instagram,
+.fa-facebook,
+.fa-twitter {
+    font-size: 1.2rem;
     color: #fff;
     text-align: center;
+    padding: 10px;
 }
+
 
 /* MEDIA QUERRY */
 
@@ -185,13 +194,10 @@
         font-weight: 200;
         padding: 50px 0;
     }
-    .icons {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .fab {
-        font-size: .7rem;
+    .fa-instagram,
+    .fa-facebook,
+    .fa-twitter {
+        font-size: 1.2rem;
         color: #fff;
         padding: 20px;
     }
