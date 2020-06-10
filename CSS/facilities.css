@@ -1,0 +1,5 @@
+.facilities-gallery {
+  display: grid;
+  grid-template-columns: 4fr;
+  grid-template-rows: 2fr;
+}
