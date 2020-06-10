@@ -1,3 +1,4 @@
+ room-and-rate
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;800&family=Scheherazade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Rakkas&display=swap');
@@ -201,6 +202,7 @@ nav.sticky{
     width:60%;
   }
 }
+
 .cardRooms {
   display: flex;
   flex-wrap: wrap;
