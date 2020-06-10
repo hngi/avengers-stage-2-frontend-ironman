@@ -5,6 +5,7 @@
 *{
   box-sizing:border-box;
 }
+ room-and-rate
 body{
   margin:0;
   padding:0;
@@ -68,11 +69,7 @@ nav .nav-links li a:hover:before{
 }
 .bg-image{
   background-image: url('../Images/images/Bg.png');
-  background-size: cover;
-  width:100%;
-  height:100vh;
- 
-}
+
 .content{
     display:flex;
     flex-direction: column;
@@ -292,6 +289,7 @@ nav.sticky{
   color: #ffffff;
   width: 197px;
   height: 50px;
+  outline: 0;
 outline: 0;
   background: #ff7913;
   border-color: transparent;
@@ -300,4 +298,7 @@ outline: 0;
 .roomBooknow:hover {
   background: rgba(255, 121, 19, 0.5);
   cursor: pointer;
+ room-and-rate
 }
+
+ develop
