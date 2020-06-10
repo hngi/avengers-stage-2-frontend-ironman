@@ -1,0 +1,19 @@
+.secondpart {
+    font-family: open sans;
+}
+h1 {
+    color: #ff7913;
+    font-weight: lighter !important;
+    font-size: large !important;
+}
+h2 {
+    font-size: x-large !important;
+    font-weight: bold !important;
+}
+h3 { 
+    font-size: x-large !important;
+}
+.bg-orange {
+    background-color: #ff7913 !important;
+    width: 150px;
+}
