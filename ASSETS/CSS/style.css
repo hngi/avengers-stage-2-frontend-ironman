@@ -52,6 +52,7 @@ footer li {
         justify-content: space-evenly;
         position: relative;
         height: 300px;
+        padding-right: 40px;
     }
 
     .container1 {
@@ -59,17 +60,6 @@ footer li {
         margin-left: -80px;
     }
 
-    .rooms {
-        margin-left: -90px;
-    }
-
-    .offices {
-        margin-right: 150px;
-    }
-
-    .facilities {
-        margin-right: 100px;
-    }
 
     .container2 {
         margin-right: 40px;
