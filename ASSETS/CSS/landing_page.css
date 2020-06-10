@@ -5,6 +5,8 @@
     justify-content: space-between;
     align-items: center;
     background-size: cover;
+    position: absolute;
+    overflow: hidden;
 }
 
 .hospitality__text {
@@ -14,7 +16,7 @@
     font-weight: bold;
     font-size: 45px;
     line-height: 68px;
-    width: 60%;
+    max-width: 60%;
     margin-left: 40px;
     letter-spacing: 1px;
 }
@@ -25,7 +27,20 @@
     background-color: #fff;
     border-radius: 40px;
     color: red;
-    margin-right: 50px;
+    margin-right: 20%;
     font-size: 20px;
     font-family: "Open sans", sans-serif;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .section-hospitality,
+    .hospitality__text,
+    .btn {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
 }
