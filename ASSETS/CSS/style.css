@@ -4,8 +4,8 @@
 }
 
 footer {
-  background-image: linear-gradient(rgb(95, 74, 60), rgba(0, 0, 0, 0.795)),
-    url(../Images/images/bg.jpg);
+  /* background-image: linear-gradient(rgb(95, 74, 60), rgba(0, 0, 0, 0.795)),
+    url(../Images/images/bg.jpg); */
   background-color: #645143;
   background-repeat: no-repeat;
   background-position: center;
