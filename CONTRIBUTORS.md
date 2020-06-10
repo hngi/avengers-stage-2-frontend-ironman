@@ -22,4 +22,6 @@
 
 -  [@emmacodemy](http://github.com/emmacodemy)
 
+-  [@samueladeniyi](http://github.com/samueladeniyi)
+
 -  [@hurshore](https://github.com/hurshore)
