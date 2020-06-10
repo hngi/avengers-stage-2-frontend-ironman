@@ -16,3 +16,5 @@
 -  [@IbnMaruf](http://github.com/IbnMaruf)
 
 -  [@emmacodemy](http://github.com/emmacodemy)
+
+-  [@kellyruth](http://github.com/Kelechi-Eluagu)
