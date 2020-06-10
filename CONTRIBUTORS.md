@@ -15,6 +15,10 @@
 
 -  [@IbnMaruf](http://github.com/IbnMaruf)
 
+-  [@larrycoal](http://github.com/larrycoal)
+
 -  [@emmacodemy](http://github.com/emmacodemy)
 
 -  [@samueladeniyi](http://github.com/samueladeniyi)
+
+-  [@hurshore](https://github.com/hurshore)
