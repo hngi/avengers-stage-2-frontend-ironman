@@ -1,0 +1,61 @@
+ *{
+    box-sizing: border-box;
+ }
+ body{
+     background: white;
+     margin-left: 5%;
+     padding-right: 5%;
+ }
+ #container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        
+
+    }
+    #container div{
+        height: 210px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+
+    }
+    #spa{
+        background: url("../Images/images/7.jpg");
+        color: white;
+    }
+    #gym{
+        background: url("../Images/images/8.jpg");
+        color: white;
+    }
+    #restaurant{
+        background: url("../Images/images/9.jpg");
+        color: white;
+    }
+    #pool{
+        background: url("../Images/images/21.jpg");
+        color: white;
+    }
+     /* For responsiveness */
+    @media only screen and (max-width: 600px) {
+        #container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #container div{
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+    }
+}
