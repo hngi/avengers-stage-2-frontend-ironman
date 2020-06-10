@@ -1,18 +1,12 @@
-body {
-    margin: 0 auto;
-}
-.header {
-    display: block;
-}
+
 .category1 {
     position: absolute;
-    top: 3%;
+    top: 5vw;
     min-width: 100%;
 }
 
 .category1 a {
     float: right;
-    margin-top: 3.5%;
     margin-right: 4%;
     font-family: arial;
     text-decoration: none;
@@ -21,7 +15,6 @@ body {
 }
 #cu {
     float: right;
-    margin-top: 3.5%;
     margin-right: 10.5%;
     font-family: arial;
     text-decoration: none;
@@ -33,9 +26,9 @@ body {
     border-radius: 0.1vw;
 }
 #deluxe {
+    top: 5vw;
     font-family: 'Gill Sans';
     float: left;
-    margin-top: 3.5%;
     margin-left: 10.5%;
     font-size: 2vw;
     color: white;
