@@ -16,5 +16,3 @@
 -  [@IbnMaruf](http://github.com/IbnMaruf)
 
 -  [@emmacodemy](http://github.com/emmacodemy)
-
--  [@fantee-hub](http://github.com/fantee-hub)
