@@ -1,0 +1,69 @@
+.contact{
+    height: 400px;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+.contact-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr))
+}
+form{
+    display: grid;
+    width: 100%;
+    row-gap: 10px;
+    margin-bottom: 30px;
+}
+input{
+    height: 30px;
+    background-color: #E9EAFF;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+textarea{
+    background-color: #E9EAFF;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding:5px 10px;
+}
+form div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+section{
+    display: grid;
+    column-gap: 10px;
+}
+button{
+    padding: 10px;
+    height: 35px;
+    background-color: #FF7913 ;
+    border: none;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.contact h2{
+    color: #FF7913 ;;
+}
+.info{
+    display: grid;
+    justify-content: center;
+    height: 50%;
+}
+i{
+    color: #FF7913 ;
+}
+.info span{
+    display: flex;
+    margin: 20px;
+}
+.info p {
+    padding: 0 10px;
+    margin: 0;
+}
