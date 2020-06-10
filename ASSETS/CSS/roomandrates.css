@@ -1,0 +1,279 @@
+@font-face {
+  font-family: Inter;
+  src: url("../Inter/Inter-VariableFont_slnt,wght.ttf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("../Inter/Inter-VariableFont_slnt,wght.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: OpenSans, "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Inter, "Helvetica Neue", sans-serif;
+}
+
+.page-banner {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 251, 245, 0.3) 100%
+    ),
+    url("../Images/images/15.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-banner-content {
+  padding: 20px 15px;
+  color: white;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.page-name {
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.page-introduction {
+  font-size: 3rem;
+  max-width: 512px;
+}
+
+.main-nav {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  z-index: 999999;
+}
+
+.main-nav nav {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  height: 100%;
+}
+
+.main-nav .menu {
+  margin-left: auto;
+}
+
+.main-nav .menu-item {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  position: relative;
+}
+
+.main-nav .menu-item.active::after {
+  width: 50%;
+  border-bottom: solid 4px #ae4c01;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  right: 25%;
+}
+
+.menu-hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-nav {
+    height: unset;
+  }
+
+  .main-nav .logo {
+    display: inline-block;
+  }
+
+  .main-nav nav {
+    display: block;
+  }
+
+  .main-nav .nav-left {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+  }
+
+  .menu-hamburger {
+    display: inline-block;
+  }
+
+  .main-nav .menu {
+    transition: all 0.3s linear;
+    display: none;
+    margin: 0 -15px;
+  }
+
+  .main-nav .menu.show {
+    display: block;
+  }
+
+  /* For mobile phones: */
+  .main-nav .menu-item {
+    display: block;
+  }
+
+  .main-nav .menu-item:not(:last-child) {
+    border-bottom: solid 1px #ffffff;
+  }
+
+  .main-nav .menu-item.active {
+    display: block;
+    border-bottom: unset;
+  }
+
+  .main-nav .menu-item.active::after {
+    width: 100%;
+    border-bottom: solid 2px #ae4c01;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: unset;
+  }
+}
+
+/* ROOM CARDS */
+.cardRooms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardWrapper {
+  width: 25%;
+}
+.cardRoom div:not(.img) {
+  margin: 20px;
+}
+.cardRooms .cardRoom {
+  position: relative;
+  margin: 45px 20px;
+  border: 5px;
+  height: 530px;
+  width: 351px;
+  background: #ffffff;
+  box-shadow: 0px 6px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+.roomRating {
+  /* 4.6 */
+  position: absolute;
+  width: 23px;
+  height: 40px;
+  top: 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  /* identical to box height, or 250% */
+  color: #ffffff;
+  width: 83px;
+  height: 36px;
+
+  background: #ff7913;
+  border-radius: 20px;
+}
+.img {
+  /* position: absolute; */
+  width: 351px;
+  height: 300px;
+  left: 201px;
+  top: 1176px;
+  background: #c4c4c4;
+  background-size: cover;
+  border-radius: 30px 30px 0px 0px;
+}
+.roomType {
+  /* position: absolute; */
+  /* width: 112px; */
+  height: 40px;
+  left: 25px;
+  top: 321px;
+  float: left;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height, or 200% */
+
+  color: #000000;
+}
+.roomPrice {
+  /* $100 */
+  /* position: absolute; */
+  width: 51px;
+  height: 40px;
+  float: right;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  /* identical to box height, or 182% */
+  color: #ff7913;
+}
+.roomInfo {
+  /* position: absolute; */
+  /* width: 154px; */
+  height: 40px;
+  clear: both;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  /* identical to box height, or 250% */
+  color: rgba(0, 0, 0, 0.6);
+}
+.roomBooknow {
+  /* Book Now */
+  text-align: center;
+  /* position: absolute; */
+  width: 79px;
+  height: 40px;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  margin: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  /* identical to box height, or 250% */
+  color: #ffffff;
+
+  width: 197px;
+  height: 50px;
+
+  background: #ff7913;
+  border-color: transparent;
+  border-radius: 40px;
+}
