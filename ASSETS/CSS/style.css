@@ -2,6 +2,13 @@
 [class*="col-"] {
   padding: 1rem;
 }
+.font-weight-bolder {
+  font-family: Rakkas;
+  font-style: normal;
+}
+footer {
+  /* background-image: linear-gradient(rgb(95, 74, 60), rgba(0, 0, 0, 0.795)),
+      url(../Images/images/bg.jpg); */
 
 footer {
   /* background-image: linear-gradient(rgb(95, 74, 60), rgba(0, 0, 0, 0.795)),
@@ -128,6 +135,7 @@ hr.light-100 {
   color: #ffffff;
   width: 197px;
   height: 50px;
+  outline: 0;
 outline: 0;
   background: #ff7913;
   border-color: transparent;
@@ -136,4 +144,3 @@ outline: 0;
 .roomBooknow:hover {
   background: rgba(255, 121, 19, 0.5);
   cursor: pointer;
-}
