@@ -1,19 +1,35 @@
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('OpenSans-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 .secondpart {
-    font-family: open sans;
+    font-family: 'open_sansbold';
 }
 h1 {
+    font-family: 'open_sansregular' !important;
     color: #ff7913;
-    font-weight: lighter !important;
-    font-size: large !important;
+    font-weight: 20 !important;
+    font-size: medium !important;
 }
 h2 {
     font-size: x-large !important;
-    font-weight: bold !important;
+    font-weight: normal !important;
 }
 h3 { 
-    font-size: x-large !important;
+    font-size: large !important;
 }
 .bg-orange {
     background-color: #ff7913 !important;
     width: 150px;
+}
+p {
+    font-size: x-small;
 }
