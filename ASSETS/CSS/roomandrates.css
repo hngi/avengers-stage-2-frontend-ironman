@@ -2,19 +2,16 @@
   font-family: Inter;
   src: url("../Inter/Inter-VariableFont_slnt,wght.ttf");
 }
-
 @font-face {
   font-family: OpenSans;
   src: url("../Inter/Inter-VariableFont_slnt,wght.ttf");
 }
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: OpenSans, "Helvetica Neue", sans-serif;
 }
-
 h1,
 h2,
 h3,
@@ -23,7 +20,6 @@ h5,
 h6 {
   font-family: Inter, "Helvetica Neue", sans-serif;
 }
-
 .page-banner {
   display: flex;
   align-items: center;
@@ -39,33 +35,28 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .page-banner-content {
   padding: 20px 15px;
   color: white;
   width: 1024px;
   margin: 0 auto;
 }
-
 .page-name {
   font-weight: 400;
   letter-spacing: 0.5rem;
   font-size: 1rem;
   margin-left: 5px;
 }
-
 .page-introduction {
   font-size: 3rem;
   max-width: 512px;
 }
-
 .main-nav {
   position: fixed;
   height: 60px;
   width: 100%;
   z-index: 999999;
 }
-
 .main-nav nav {
   max-width: 1024px;
   margin: 0 auto;
@@ -74,18 +65,15 @@ h6 {
   padding: 0 15px;
   height: 100%;
 }
-
 .main-nav .menu {
   margin-left: auto;
 }
-
 .main-nav .menu-item {
   color: white;
   padding: 10px 20px;
   text-decoration: none;
   position: relative;
 }
-
 .main-nav .menu-item.active::after {
   width: 50%;
   border-bottom: solid 4px #ae4c01;
@@ -95,58 +83,45 @@ h6 {
   left: 25%;
   right: 25%;
 }
-
 .menu-hamburger {
   display: none;
 }
-
 @media only screen and (max-width: 768px) {
   .main-nav {
     height: unset;
   }
-
   .main-nav .logo {
     display: inline-block;
   }
-
   .main-nav nav {
     display: block;
   }
-
   .main-nav .nav-left {
     display: flex;
     justify-content: space-between;
     padding: 15px 0;
   }
-
   .menu-hamburger {
     display: inline-block;
   }
-
   .main-nav .menu {
     transition: all 0.3s linear;
     display: none;
     margin: 0 -15px;
   }
-
   .main-nav .menu.show {
     display: block;
   }
-
-  /* For mobile phones: */
   .main-nav .menu-item {
     display: block;
   }
-
   .main-nav .menu-item:not(:last-child) {
     border-bottom: solid 1px #ffffff;
   }
-
   .main-nav .menu-item.active {
     display: block;
     border-bottom: unset;
   }
-
   .main-nav .menu-item.active::after {
     width: 100%;
     border-bottom: solid 2px #ae4c01;
@@ -157,14 +132,11 @@ h6 {
     right: unset;
   }
 }
-
-/* ROOM CARDS */
 .cardRooms {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .cardWrapper {
   width: 25%;
 }
@@ -182,7 +154,6 @@ h6 {
   border-radius: 30px;
 }
 .roomRating {
-  /* 4.6 */
   position: absolute;
   width: 23px;
   height: 40px;
@@ -193,16 +164,13 @@ h6 {
   font-weight: 600;
   font-size: 16px;
   line-height: 40px;
-  /* identical to box height, or 250% */
   color: #ffffff;
   width: 83px;
   height: 36px;
-
   background: #ff7913;
   border-radius: 20px;
 }
 .img {
-  /* position: absolute; */
   width: 351px;
   height: 300px;
   left: 201px;
@@ -212,8 +180,6 @@ h6 {
   border-radius: 30px 30px 0px 0px;
 }
 .roomType {
-  /* position: absolute; */
-  /* width: 112px; */
   height: 40px;
   left: 25px;
   top: 321px;
@@ -223,13 +189,9 @@ h6 {
   font-weight: normal;
   font-size: 20px;
   line-height: 40px;
-  /* identical to box height, or 200% */
-
   color: #000000;
 }
 .roomPrice {
-  /* $100 */
-  /* position: absolute; */
   width: 51px;
   height: 40px;
   float: right;
@@ -238,27 +200,20 @@ h6 {
   font-weight: 600;
   font-size: 22px;
   line-height: 40px;
-  /* identical to box height, or 182% */
   color: #ff7913;
 }
 .roomInfo {
-  /* position: absolute; */
-  /* width: 154px; */
   height: 40px;
   clear: both;
-
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 40px;
-  /* identical to box height, or 250% */
   color: rgba(0, 0, 0, 0.6);
 }
 .roomBooknow {
-  /* Book Now */
   text-align: center;
-  /* position: absolute; */
   width: 79px;
   height: 40px;
   font-family: "Open Sans", sans-serif;
@@ -267,13 +222,14 @@ h6 {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  /* identical to box height, or 250% */
   color: #ffffff;
-
   width: 197px;
   height: 50px;
-
   background: #ff7913;
   border-color: transparent;
   border-radius: 40px;
+}
+.roomBooknow:hover {
+  background: rgba(255, 121, 19, 0.5);
+  cursor: pointer;
 }
