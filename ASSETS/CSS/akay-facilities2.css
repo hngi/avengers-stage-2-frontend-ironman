@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.facilites2-card-wrapper{
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem 1rem;
+}
+
+.facilites2-card{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.bckgrd1{
+    background-image: url('../Images/images/17.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bckgrd2{
+    background-image: url('../Images/images/18.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bckgrd3{
+    background-image: url('../Images/images/19.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bckgrd4{
+    background-image: url('../Images/images/20.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bckgrd5{
+    background-image: url('../Images/images/7.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bckgrd6{
+    background-image: url('../Images/images/8.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bckgrd7{
+    background-image: url('../Images/images/9.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bckgrd8{
+    background-image: url('../Images/images/21.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.facilites2-card p{
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 11rem 4rem; 
+}
+
+@media (min-width: 600px){
+
+    .facilites2-card-wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #fff;
+        padding: 2rem 1rem;
+        flex-wrap: wrap;
+    }
+
+    .facilites2-card{
+        width: 45%;
+        height: auto;
+        margin: 0 auto 1.5rem;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .facilites2-card-wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #fff;
+        padding: 4rem 5rem 2.5rem;
+        flex-wrap: wrap;
+    }
+
+    .facilites2-card{
+        width: 23%;
+        height: auto;
+        margin: 0 auto 1.5rem;
+    }
+
+    .facilites2-card p{
+        color: #fff;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 10rem 4rem; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
