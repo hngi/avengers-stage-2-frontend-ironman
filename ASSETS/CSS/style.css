@@ -1,3 +1,5 @@
+/* Footer CSS Starts */
+
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
   padding: 1rem;
@@ -38,6 +40,8 @@ hr.light-100 {
   margin-top: 0.8rem;
   margin-bottom: 1rem;
 }
+
+/* Footer CSS Ends */
 
 .cardRooms {
   display: flex;
