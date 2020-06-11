@@ -27,3 +27,4 @@
 - [@hurshore](https://github.com/hurshore)
 
 - [@ifeakins](https://github.com/ifeakins)
+- [@cooncudee](https://github.com/cooncudee)
