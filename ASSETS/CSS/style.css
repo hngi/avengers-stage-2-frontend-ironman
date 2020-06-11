@@ -1,0 +1,355 @@
+/* HEADER 
+ */
+@font-face {
+  font-family: Inter;
+  src: url("../Inter/Inter-VariableFont_slnt,wght.ttf");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("../Inter/Inter-VariableFont_slnt,wght.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: OpenSans, "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Inter, "Helvetica Neue", sans-serif;
+}
+
+.page-banner {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 251, 245, 0.3) 100%
+    ),
+    url("../Images/images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-banner-content {
+  padding: 20px 15px;
+  color: white;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.page-name {
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.page-introduction {
+  font-size: 3rem;
+  max-width: 512px;
+}
+
+.main-nav {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  z-index: 999999;
+}
+
+.main-nav nav {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  height: 100%;
+}
+
+.main-nav .menu {
+  margin-left: auto;
+}
+
+.main-nav .menu-item {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  position: relative;
+}
+.main-nav .menu-item:hover {
+  color: rgba(255, 255, 255, 0.548);
+}
+.main-nav .menu-item.active::after {
+  width: 50%;
+  border-bottom: solid 4px #ae4c01;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  right: 25%;
+}
+
+.menu-hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-nav {
+    height: unset;
+  }
+  .main-nav .logo {
+    display: inline-block;
+  }
+  .main-nav nav {
+    display: block;
+  }
+  .main-nav .nav-left {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+  }
+  .menu-hamburger {
+    display: inline-block;
+  }
+  .main-nav .menu {
+    transition: all 0.3s linear;
+    display: none;
+    margin: 0 -15px;
+  }
+  .main-nav .menu.show {
+    display: block;
+  }
+  /* For mobile phones: */
+  .main-nav .menu-item {
+    display: block;
+  }
+  .main-nav .menu-item:not(:last-child) {
+    border-bottom: solid 1px #ffffff;
+  }
+  .main-nav .menu-item.active {
+    display: block;
+    border-bottom: unset;
+  }
+  .main-nav .menu-item.active::after {
+    width: 100%;
+    border-bottom: solid 2px #ae4c01;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: unset;
+  }
+}
+
+/* FACILITIES LIST LINE  */
+
+#servicesList {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 30px;
+  justify-content: center;
+  padding-bottom: 52px;
+  margin: 0 70px;
+}
+
+.service {
+  flex: 0 0 12%;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  margin: 9px;
+  justify-content: center;
+  padding-top: 40px;
+}
+.service p {
+  text-align: center;
+}
+.service div {
+  margin: auto;
+}
+.service img {
+  display: block;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+.footerBrown {
+  background: #645143;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  color: #ffffff;
+  font-family: "Sofia Pro";
+}
+
+.footerBrownIn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footerBrownIn p:hover {
+  color: rgba(255, 255, 255, 0.548);
+}
+.footerText {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  grid-area: textd;
+}
+
+.footerText div {
+  padding: 0 20px 15px 3em;
+}
+
+.footerLogo {
+  width: 135px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 40px;
+  grid-area: logo;
+}
+
+.footerRooms p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.footerFacilities p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.footerLocation p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.footerTextHead {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.footerIcons {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.footerSocials {
+  grid-area: socials;
+}
+
+.footerCopyright {
+  padding-top: 20px;
+  text-align: center;
+  grid-area: copyright;
+}
+
+.fab {
+  color: white;
+  align-items: center;
+}
+
+@media screen and (min-width: 50px) and (max-width: 768px) {
+  .page-banner {
+    width: 100vw;
+  }
+  .footerBrown {
+    display: grid;
+    width: 100vw;
+    grid-template-areas: "texts" "copyright";
+    grid-template-rows: 1fr 40px;
+    padding: 15px 0 25px 0;
+    grid-template-columns: 1fr;
+  }
+  .footerBrownIn {
+    grid-area: texts;
+    background: #645143;
+    display: grid;
+    grid-template-areas: "logo textd" "socials socials";
+    grid-template-rows: 1fr 30px;
+    grid-template-columns: 100px 1fr;
+    padding: 10px;
+    position: relative;
+    width: 96%;
+    height: 1fr;
+    color: #ffffff;
+    font-family: "Sofia Pro";
+  }
+  .footerLogo {
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .footerSocials {
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    opacity: 0.9;
+  }
+  .footerText {
+    justify-content: center;
+    opacity: 0.9;
+  }
+  .footerTextHead {
+    font-size: 16px;
+    line-height: 15px;
+    padding: 5px;
+  }
+  .footerIcons {
+    padding: 0;
+  }
+  .footerText div {
+    padding: 0 0 10px 1em;
+  }
+  .footerRooms p,
+  .footerFacilities p,
+  .footerLocation p {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 5px;
+    opacity: 0.9;
+  }
+  .footerCopyright {
+    padding-top: 42px;
+    font-size: 14px;
+  }
+  .service p {
+    font-size: 0.5em;
+  }
+  .service img {
+    width: 25px;
+  }
+}
+
+/* FOOTER ENDS HERE  */
