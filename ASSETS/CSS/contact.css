@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: Inter;
   src: url("../Inter/Inter-VariableFont_slnt,wght.ttf");
@@ -34,7 +39,7 @@ h6 {
       rgba(0, 0, 0, 0.3) 50%,
       rgba(0, 251, 245, 0.3) 100%
     ),
-    url("../Images/images/15.jpg");
+    url("../Images/images/bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,12 +92,12 @@ h6 {
 }
 
 .main-nav .menu-item.active::after {
-  width: 50%;
+  width: 60%;
   border-bottom: solid 4px #ae4c01;
   content: "";
   position: absolute;
   bottom: 0;
-  left: 25%;
+  left: 18%;
   right: 25%;
 }
 
@@ -121,7 +126,6 @@ h6 {
 
   .menu-hamburger {
     display: inline-block;
-    cursor: pointer;
   }
 
   .main-nav .menu {
@@ -134,7 +138,6 @@ h6 {
     display: block;
   }
 
-  /* For mobile phones: */
   .main-nav .menu-item {
     display: block;
   }
@@ -159,124 +162,83 @@ h6 {
   }
 }
 
-/* ROOM CARDS */
-.cardRooms {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+div.contact {
+  height: auto;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  padding: 5% 5%;
 }
-
-.cardWrapper {
-  width: 25%;
+.contact-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
-.cardRoom div:not(.img) {
-  margin: 20px;
+form {
+  display: grid;
+  width: 100%;
+  row-gap: 10px;
+  margin-bottom: 30px;
 }
-.cardRooms .cardRoom {
-  position: relative;
-  margin: 45px 20px;
-  border: 5px;
-  height: 530px;
-  width: 351px;
-  background: #ffffff;
-  box-shadow: 0px 6px 60px rgba(0, 0, 0, 0.1);
-  border-radius: 30px;
+input {
+  height: 30px;
+  background-color: #e9eaff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
-.roomRating {
-  /* 4.6 */
-  position: absolute;
-  width: 23px;
-  height: 40px;
-  top: 0;
+textarea {
+  background-color: #e9eaff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+form div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+section {
+  display: grid;
+  column-gap: 10px;
+}
+button {
+  padding: 10px;
+  height: 50px;
+  background-color: #ff7913;
+  border: none;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 40px;
-  /* identical to box height, or 250% */
-  color: #ffffff;
-  width: 83px;
-  height: 36px;
-
-  background: #ff7913;
-  border-radius: 20px;
+  color: white;
+  border-radius: 5px;
 }
-.img {
-  /* position: absolute; */
-  width: 351px;
-  height: 300px;
-  left: 201px;
-  top: 1176px;
-  background: #c4c4c4;
-  background-size: cover;
-  border-radius: 30px 30px 0px 0px;
-}
-.roomType {
-  /* position: absolute; */
-  /* width: 112px; */
-  height: 40px;
-  left: 25px;
-  top: 321px;
-  float: left;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 40px;
-  /* identical to box height, or 200% */
-
-  color: #000000;
-}
-.roomPrice {
-  /* $100 */
-  /* position: absolute; */
-  width: 51px;
-  height: 40px;
-  float: right;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 40px;
-  /* identical to box height, or 182% */
+.contact h2 {
   color: #ff7913;
 }
-.roomInfo {
-  /* position: absolute; */
-  /* width: 154px; */
-  height: 40px;
-  clear: both;
 
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 40px;
-  /* identical to box height, or 250% */
-  color: rgba(0, 0, 0, 0.6);
+.info {
+  display: grid;
+  justify-content: center;
+  height: 50%;
 }
-.roomBooknow {
-  /* Book Now */
-  text-align: center;
-  /* position: absolute; */
-  width: 79px;
-  height: 40px;
-  font-family: "Open Sans", sans-serif;
-  display: block;
-  margin: auto;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  /* identical to box height, or 250% */
-  color: #ffffff;
 
-  width: 197px;
-  height: 50px;
+i {
+  color: #ff7913;
+}
 
-  background: #ff7913;
-  border-color: transparent;
-  border-radius: 40px;
+/*To hide icon on mobile screen*/
+@media only screen and (max-width: 768px) {
+  i.display-large {
+    display: none;
+  }
+}
+
+.info span {
+  display: flex;
+  margin: 9px;
+}
+.info p {
+  padding: 0 10px;
+  margin: 0;
 }
 
 /* FOOTER */

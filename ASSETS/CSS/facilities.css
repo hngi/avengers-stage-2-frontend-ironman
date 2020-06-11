@@ -34,7 +34,7 @@ h6 {
       rgba(0, 0, 0, 0.3) 50%,
       rgba(0, 251, 245, 0.3) 100%
     ),
-    url("../Images/images/15.jpg");
+    url("../Images/images/16.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,12 +87,12 @@ h6 {
 }
 
 .main-nav .menu-item.active::after {
-  width: 50%;
+  width: 60%;
   border-bottom: solid 4px #ae4c01;
   content: "";
   position: absolute;
   bottom: 0;
-  left: 25%;
+  left: 18%;
   right: 25%;
 }
 
@@ -121,7 +121,6 @@ h6 {
 
   .menu-hamburger {
     display: inline-block;
-    cursor: pointer;
   }
 
   .main-nav .menu {
@@ -134,7 +133,7 @@ h6 {
     display: block;
   }
 
-  /* For mobile phones: */
+ 
   .main-nav .menu-item {
     display: block;
   }
@@ -159,127 +158,59 @@ h6 {
   }
 }
 
-/* ROOM CARDS */
-.cardRooms {
+
+.cardFacilitys {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.cardWrapper {
-  width: 25%;
+.facilityName a {
+  text-decoration: none;
+  color: #ffffff;
 }
-.cardRoom div:not(.img) {
-  margin: 20px;
+
+.facilityName a:hover {
+  width: 50%;
+  content: "";
+  bottom: 0px;
+  left: 25%;
+  right: 25%;
+  color: #ffffffb2;
+  border-bottom: 4px solid #ffffffb2;
+  z-index: 9999;
 }
-.cardRooms .cardRoom {
+.cardFacilitys .cardFacility {
   position: relative;
   margin: 45px 20px;
-  border: 5px;
-  height: 530px;
   width: 351px;
-  background: #ffffff;
-  box-shadow: 0px 6px 60px rgba(0, 0, 0, 0.1);
-  border-radius: 30px;
-}
-.roomRating {
-  /* 4.6 */
-  position: absolute;
-  width: 23px;
-  height: 40px;
-  top: 0;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 40px;
-  /* identical to box height, or 250% */
-  color: #ffffff;
-  width: 83px;
-  height: 36px;
-
-  background: #ff7913;
-  border-radius: 20px;
+  height: 442px;
+  background: rgba(0, 0, 0, 0.49);
 }
 .img {
-  /* position: absolute; */
   width: 351px;
-  height: 300px;
+  height: 442px;
   left: 201px;
-  top: 1176px;
-  background: #c4c4c4;
-  background-size: cover;
-  border-radius: 30px 30px 0px 0px;
+  top: 1157px;
+  background: rgba(0, 0, 0, 0.49);
 }
-.roomType {
-  /* position: absolute; */
-  /* width: 112px; */
+.facilityName {
+  position: absolute;
   height: 40px;
-  left: 25px;
-  top: 321px;
-  float: left;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 40px;
-  /* identical to box height, or 200% */
-
-  color: #000000;
-}
-.roomPrice {
-  /* $100 */
-  /* position: absolute; */
-  width: 51px;
-  height: 40px;
-  float: right;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 40px;
-  /* identical to box height, or 182% */
-  color: #ff7913;
-}
-.roomInfo {
-  /* position: absolute; */
-  /* width: 154px; */
-  height: 40px;
-  clear: both;
-
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 40px;
-  /* identical to box height, or 250% */
-  color: rgba(0, 0, 0, 0.6);
-}
-.roomBooknow {
-  /* Book Now */
-  text-align: center;
-  /* position: absolute; */
-  width: 79px;
-  height: 40px;
-  font-family: "Open Sans", sans-serif;
   display: block;
-  margin: auto;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
-  /* identical to box height, or 250% */
+  font-size: 26px;
+  line-height: 40px;
   color: #ffffff;
-
-  width: 197px;
-  height: 50px;
-
-  background: #ff7913;
-  border-color: transparent;
-  border-radius: 40px;
 }
 
-/* FOOTER */
+
 
 .footerBrown {
   background: #645143;
@@ -288,7 +219,7 @@ h6 {
   flex-direction: column;
   position: relative;
   width: 100%;
-
+ 
   color: #ffffff;
   font-family: "Sofia Pro";
 }
@@ -317,7 +248,7 @@ h6 {
   font-weight: 900;
   font-size: 36px;
   line-height: 40px;
-
+ 
   grid-area: logo;
 }
 
@@ -437,4 +368,38 @@ h6 {
   .service img {
     width: 25px;
   }
+}
+
+#servicesList {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 30px;
+  justify-content: center;
+  padding-bottom: 142px;
+  margin: 0 70px;
+}
+
+.service {
+  flex: 0 0 12%;
+ 
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  margin: 9px;
+  justify-content: center;
+  padding-top: 40px;
+}
+.service p {
+  text-align: center;
+}
+.service div {
+  margin: auto;
+}
+.service img {
+  display: block;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 10px;
 }

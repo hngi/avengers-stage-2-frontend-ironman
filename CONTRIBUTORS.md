@@ -18,12 +18,14 @@
 
 - [@emmanuelr20](http://github.com/emmanuelr20)
 
--  [@larrycoal](http://github.com/larrycoal)
+- [@larrycoal](http://github.com/larrycoal)
 
--  [@emmacodemy](http://github.com/emmacodemy)
+- [@emmacodemy](http://github.com/emmacodemy)
 
--  [@samueladeniyi](http://github.com/samueladeniyi)
+- [@samueladeniyi](http://github.com/samueladeniyi)
 
--  [@hurshore](https://github.com/hurshore)
+- [@hurshore](https://github.com/hurshore)
 
--  [@nnamdi16](https://github.com/nnamdi16)
+- [@ifeakins](https://github.com/ifeakins)
+
+- [@]
