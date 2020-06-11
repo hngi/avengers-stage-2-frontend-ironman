@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="ASSETS/CSS/contact.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+       <link rel="stylesheet" href="./ASSETS/CSS/contact.css">
+
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Contact Us</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
@@ -43,37 +45,37 @@
                 <div>
                     <section>
                     <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="fname" placeholder="john"/>
+                    <input type="text" id="fname" name="fname" placeholder="John" required/>
                 </section>
                 <section>
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lname" placeholder="Doe" />
+                    <input type="text" id="lname" name="lname" placeholder="Doe" required />
                 </section>
                 </div>
                 <label for= "email">Email</label>
-                <input type="email" id="email" name="email" placeholder="email@example.com"required />
+                <input type="email" id="email" name="email" placeholder="email@example.com" required />
                 <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject" />
+                <input type="text" id="subject" name="subject" required />
                 <label for="message">Message</label>
-                <textarea id="message" name="message" rows="6" cols="60"></textarea>
+                <textarea id="message" name="message" rows="6" placeholder="Send us a message!" cols="60" required></textarea>
                 <button>Leave us a message</button>
 
             </form>
             <div class="info">
                 <span>
                     
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <i class="fa fa-map-marker display-large" aria-hidden="true"></i>
                      <p>Allen Avenue,Ikeja,Lagos State</p>
                 </span>
                 <span>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <i class="fa fa-clock-o display-large" aria-hidden="true"></i>
                      <p>24/7</p>
                 </span>
                 <span>
-                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <i class="fa fa-phone display-large" aria-hidden="true"></i>
                     <p>
                         +2348156423109 <br/>
-                        +2348156423109<br/>
+                        +2348156423109 <br/>
                         +2348156423109
                     </p>
                 </span>
@@ -96,7 +98,7 @@
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.364545637255!2d3.349844514018413!3d6.601538295225965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9230fc4fc853%3A0xd8babb191dac2f6b!2sAllen%20Ave%2C%20Allen%2C%20Ikeja!5e0!3m2!1sen!2sng!4v1591712161529!5m2!1sen!2sng"
         width="100%"
-        height="450"
+        height="500"
         frameborder="0"
         style="border: 0;"
         allowfullscreen=""
@@ -104,6 +106,66 @@
         tabindex="0"
       ></iframe>
     </div>
+ <footer class="footerBrown">
+        <div class="footerBrownIn">
+            <div class="footerLogo">
+                <h3 class="font-weight-bolder">DELUXE</h3>
+            </div>
+            <div class="footerText">
+                <div class="footerRooms">
+                    <h5 class="footerTextHead">Rooms</h5>
+                    <a href="#">
+                        <p>Single</p>
+                    </a>
+                    <a href="#">
+                        <p>Double</p>
+                    </a>
+                    <a href="#">
+                        <p>Executive</p>
+                    </a>
+                    <a href="#">
+                        <p>Duplex</p>
+                    </a>
+                </div>
+                <div class="footerFacilities">
+                    <h5 class="footerTextHead">Facilities</h5>
+                    <p>Wifi</p>
+                    <p>Gym</p>
+                    <p>Restaurant</p>
+                    <p>Swimming Pool</p>
+                </div>
+                <div class="footerLocation">
+                    <h5 class="footerTextHead">Location</h5>
+                    <a href="#">
+                        <p>London</p>
+                    </a>
+                    <a href="#">
+                        <p>Lagos</p>
+                    </a>
+                    <a href="#">
+                        <p>Abuja</p>
+                    </a>
+                    <a href="#">
+                        <p>Beijing</p>
+                    </a>
+                </div>
+            </div>
+            <div class="footerSocials">
+                <p class="font-weight-normal">Follow us on social media</p>
+                <div class="footerIcons"><a href="#"><i class="fab fa-instagram fa-lg"
+                            style="margin-right: 5%;"></i></a>
+                    <a href="#"><i class="fab fa-facebook fa-lg" style="margin-right: 5%;"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-lg" style="margin-right: 0%;"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footerCopyright col-12 text-center font-weight-light">
+            <p>
+                Copyright 2020 Deluxe. All rights reserved
+            </p>
+        </div>
+    </footer>
 
     <!-- END OF THIRD PART HERE ** DO NOT EXCEED THIS SECTION-->
     <!-- *********************************************** -->

@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div.contact{
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    padding: 5% 5%;    
+}
+.contact-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr))
+}
+form{
+    display: grid;
+    width: 100%;
+    row-gap: 10px;
+    margin-bottom: 30px;
+}
+input{
+    height: 30px;
+    background-color: #E9EAFF;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+textarea{
+    background-color: #E9EAFF;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding:5px 10px;
+}
+form div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+section{
+    display: grid;
+    column-gap: 10px;
+}
+button{
+    padding: 10px;
+    height: 50px;
+    background-color: #FF7913 ;
+    border: none;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.contact h2{
+    color: #FF7913 ;;
+}
+
+.info{
+    display: grid;
+    justify-content: center;
+    height: 50%;
+}
+
+i{
+    color: #FF7913 ;
+}
+
+/*To hide icon on mobile screen*/
+@media only screen and (max-width: 768px){
+    i.display-large{
+        display: none;
+    }
+}
+
+.info span{
+    display: flex;
+    margin: 20px;
+}
+.info p {
+    padding: 0 10px;
+    margin: 0;
+}
+
+
+/* FOOTER */
+
+.footerBrown {
+  background: #645143;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+
+  color: #ffffff;
+  font-family: "Sofia Pro";
+}
+
+.footerBrownIn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footerText {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  grid-area: textd;
+}
+.footerText div {
+  padding: 0 20px 15px 3em;
+}
+.footerLogo {
+  width: 135px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 40px;
+
+  grid-area: logo;
+}
+
+.footerRooms p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.footerFacilities p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.footerLocation p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.footerTextHead {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.footerIcons {
+  text-align: center;
+  padding-top: 5px;
+}
+.footerSocials {
+  grid-area: socials;
+}
+.footerCopyright {
+  padding-top: 20px;
+  text-align: center;
+  grid-area: copyright;
+}
+
+.fab {
+  color: white;
+  align-items: center;
+}
+
+@media screen and (min-width: 50px) and (max-width: 768px) {
+  .page-banner {
+    width: 100vw;
+  }
+  .footerBrown {
+    display: grid;
+    width: 100vw;
+    grid-template-areas:
+      "texts"
+      "copyright";
+    grid-template-rows: 1fr 40px;
+    padding: 15px 0 25px 0;
+    grid-template-columns: 1fr;
+  }
+  .footerBrownIn {
+    grid-area: texts;
+    background: #645143;
+    display: grid;
+    grid-template-areas:
+      "logo textd"
+      "socials socials";
+    grid-template-rows: 1fr 30px;
+    grid-template-columns: 100px 1fr;
+    padding: 10px;
+    position: relative;
+    width: 96%;
+    height: 1fr;
+    color: #ffffff;
+    font-family: "Sofia Pro";
+  }
+  .footerLogo {
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .footerSocials {
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+  }
+  .footerText {
+    justify-content: center;
+  }
+  .footerTextHead {
+    font-size: 16px;
+    line-height: 15px;
+    padding: 5px;
+  }
+  .footerIcons {
+    padding: 0;
+  }
+  .footerText div {
+    padding: 0 0 10px 1em;
+  }
+  .footerRooms p,
+  .footerFacilities p,
+  .footerLocation p {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 5px;
+  }
+  .footerCopyright {
+    padding-top: 42px;
+    font-size: 14px;
+  }
+  .service p {
+    font-size: 0.5em;
+  }
+  .service img {
+    width: 25px;
+  }
+}
