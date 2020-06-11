@@ -5,6 +5,21 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.room-banner {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 251, 245, 0.3) 100%
+    ),
+    url("../Images/images/15.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .cardWrapper {
   width: 25%;
