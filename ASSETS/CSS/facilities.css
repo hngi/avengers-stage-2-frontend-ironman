@@ -254,30 +254,37 @@ h6 {
 
 .footerRooms p {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 40px;
   color: #ffffff;
+  opacity: 0.9;
+
 }
 
 .footerFacilities p {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 40px;
   color: #ffffff;
+  opacity: 0.9;
+
 }
 
 .footerLocation p {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 40px;
   color: #ffffff;
+  opacity: 0.9;
+
 }
 .footerTextHead {
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 40px;
   color: #ffffff;
+  opacity: 0.9;
 }
 .footerIcons {
   text-align: center;
