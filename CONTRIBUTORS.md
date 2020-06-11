@@ -4,7 +4,7 @@
 
 - [@ifatoki](https://github.com/ifatoki)
 
-- [@Code_Otchere](http://github.com/OtchereDev)
+- [@Oliver_otchere](http://github.com/OtchereDev)
 
 - [@saslamp](http://github.com/saslamp)
 
