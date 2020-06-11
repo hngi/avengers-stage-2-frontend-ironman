@@ -257,6 +257,8 @@ h6 {
   font-size: 18px;
   line-height: 40px;
   color: #ffffff;
+  opacity: 0.9;
+
 }
 
 .footerFacilities p {
@@ -264,6 +266,8 @@ h6 {
   font-size: 18px;
   line-height: 40px;
   color: #ffffff;
+  opacity: 0.9;
+
 }
 
 .footerLocation p {
@@ -271,13 +275,16 @@ h6 {
   font-size: 18px;
   line-height: 40px;
   color: #ffffff;
+  opacity: 0.9;
+
 }
 .footerTextHead {
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 40px;
   color: #ffffff;
+  opacity: 0.9;
 }
 .footerIcons {
   text-align: center;

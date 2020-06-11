@@ -57,10 +57,10 @@
                 </div>
             </div>
             <div class="menu" id="main-menu">
-                <a href="#" class="menu-item">About Us</a>
-                <a href="#" class="menu-item">Rooms</a>
-                <a href="#" class="menu-item">Facilities </a>
-                <a href="#" class="menu-item">Contact Us</a>
+                <a href="#" class="menu-item active">About Us</a>
+                <a href="./roomsandRates.html" class="menu-item">Rooms</a>
+                <a href="./facilities.html" class="menu-item">Facilities </a>
+                <a href="./contact.html" class="menu-item">Contact Us</a>
             </div>
         </nav>
     </header>
@@ -272,7 +272,9 @@
                 <p class="ceo">CEO Fiwa Groups</p>
             </div>
             <div class="buffer"></div>
-            <img src="ASSETS\Images\images\10.png" alt="george">
+            <div class="text-center">
+                <img src="ASSETS\Images\images\10.png" alt="image">
+            </div>
 
         </div>
         <div class="container-item quote-2 quote">”</div>
@@ -290,74 +292,52 @@
     <!-- your codes here -->
 
     <!--- Footer -->
-    <footer>
-        <div class="container-fluid padding">
-            <div class="row">
-                <div class="col-12 col-md-4 text-center">
-                    <h3 class="font-weight-bolder">DELUXE</h3>
+    <footer class="footerBrown">
+        <div class="footerBrownIn">
+            <div class="footerLogo">
+                <h3 class="font-weight-bolder">DELUXE</h3>
+            </div>
+            <div class="footerText">
+                <div class="footerRooms">
+                    <h5 class="footerTextHead">Rooms</h5>
+                    <p>Single</p>
+                    <p>Double</p>
+                    <p>Executive</p>
+                    <p>Duplex</p>
                 </div>
-
-                <div class="col-12 col-md-4">
-                    <div class="row" style="margin-top: -15px;">
-                        <div class="col-4 col-md-4 font-weight-light">
-                            <h5 class="font-weight-normal">Rooms</h5>
-                            <hr class="light" />
-                            <a href="#">
-                                <p>Single</p>
-                            </a>
-                            <a href="#">
-                                <p>Double</p>
-                            </a>
-                            <a href="#">
-                                <p>Executive</p>
-                            </a>
-                            <a href="#">
-                                <p>Duplex</p>
-                            </a>
-                        </div>
-                        <div class="col-4 col-md-4 font-weight-light">
-                            <h5 class="font-weight-normal">Facilities</h5>
-                            <hr class="light" />
-                            <p>Wifi</p>
-                            <p>Gym</p>
-                            <p>Restaurant</p>
-                            <p>Swimming Pool</p>
-                        </div>
-                        <div class="col-4 col-md-4 font-weight-light">
-                            <h5 class="font-weight-normal">Location</h5>
-                            <hr class="light" />
-                            <a href="#">
-                                <p>London</p>
-                            </a>
-                            <a href="#">
-                                <p>Lagos</p>
-                            </a>
-                            <a href="#">
-                                <p>Abuja</p>
-                            </a>
-                            <a href="#">
-                                <p>Beijing</p>
-                            </a>
-                        </div>
-                    </div>
+                <div class="footerFacilities">
+                    <h5 class="footerTextHead">Facilities</h5>
+                    <p>Wifi</p>
+                    <p>Gym</p>
+                    <p>Restaurant</p>
+                    <p>Swimming Pool</p>
                 </div>
-
-                <div class="col-12 col-md-4 text-center">
-                    <h5 class="font-weight-normal">Follow us on social media</h5>
-                    <a href="#"><i class="fab fa-instagram fa-lg" style="margin-right: 5%;"></i></a>
-                    <a href="#"><i class="fab fa-facebook fa-lg" style="margin-right: 5%;"></i></a>
-                    <a href="#"><i class="fab fa-twitter fa-lg" style="margin-right: 0%;"></i></a>
+                <div class="footerLocation">
+                    <h5 class="footerTextHead">Location</h5>
+                    <p>London</p>
+                    <p>Lagos</p>
+                    <p>Abuja</p>
+                    <p>Beijing</p>
                 </div>
-
-                <div class="col-12 text-center font-weight-light">
-                    <hr class="light" />
-                    <p>
-                        Copyright 2020 Deluxe. All rights reserved
-                    </p>
+            </div>
+            <div class="footerSocials">
+                <h6 class="footerTextHead">Follow us on social media</h6>
+                <div class="footerIcons"><a href="#"><i class="fab fa-instagram fa-lg fa-2x"
+                            style="margin-right: 5%;"></i></a>
+                    <a href="#"><i class="fab fa-facebook fa-lg fa-2x" style="margin-right: 5%;"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-lg fa-2x" style="margin-right: 0%;"></i></a>
                 </div>
             </div>
         </div>
+
+        <div class="footerCopyright col-12 text-center font-weight-light">
+            <p>
+                Copyright 2020 Deluxe. All rights reserved
+            </p>
+        </div>
     </footer>
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -371,6 +351,5 @@
     <!-- *********************************************** -->
 
 </body>
-<script src="./ASSETS/Javascript/roomandrates.js"></script>
 
 </html>
