@@ -1,5 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: block;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
 .facilities-gallery {
+  margin-top: 10px;
   display: grid;
-  grid-template-columns: 4fr;
-  grid-template-rows: 2fr;
+  grid-gap: 15px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+
+}
+
+.card {
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
 }
