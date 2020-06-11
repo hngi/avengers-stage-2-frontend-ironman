@@ -39,7 +39,7 @@ h6 {
       rgba(0, 0, 0, 0.3) 50%,
       rgba(0, 251, 245, 0.3) 100%
     ),
-    url("../Images/images/bg.png");
+    url("../Images/images/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -285,28 +285,28 @@ i {
 
 .footerRooms p {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 40px;
   color: #ffffff;
 }
 
 .footerFacilities p {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 40px;
   color: #ffffff;
 }
 
 .footerLocation p {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 40px;
   color: #ffffff;
 }
 .footerTextHead {
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 40px;
   color: #ffffff;
 }

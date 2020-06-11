@@ -299,28 +299,28 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   font-style: normal;
   font-weight: 900;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 40px;
   grid-area: logo;
 }
 
 .footerRooms p {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 40px;
   color: #ffffff;
 }
 
 .footerFacilities p {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 40px;
   color: #ffffff;
 }
 
 .footerLocation p {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 40px;
   color: #ffffff;
 }
@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
 .footerTextHead {
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 40px;
   color: #ffffff;
 }
